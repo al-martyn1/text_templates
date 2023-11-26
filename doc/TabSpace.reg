@@ -1,0 +1,33 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\Tab]
+"Description"="Increase indent"
+"Sequence"="F11 i I"
+"DisableOutput"=dword:00000001
+"Selection"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\ShiftTab]
+"Description"="Decrease indent"
+"Sequence"="F11 i D"
+"DisableOutput"=dword:00000001
+"Selection"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlSpace]
+"Description"="Increase indent (1 ws)"
+"Sequence"="F11 i +"
+"DisableOutput"=dword:00000001
+"Selection"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\ShiftSpace]
+"Description"="Decrease indent (1 ws)"
+"Sequence"="F11 i -"
+"DisableOutput"=dword:00000001
+"Selection"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001

@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<texttp>
+
+
+<templates>
+
+<template name="cpp-include-algorithm">
+<![CDATA[
+#if !defined(_ALGORITHM_) && !defined(_STLP_ALGORITHM) && !defined(__STD_ALGORITHM) && !defined(_CPP_ALGORITHM) && !defined(_GLIBCXX_ALGORITHM)
+    #include <algorithm>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-bitset">
+<![CDATA[
+#if !defined(_BITSET_) && !defined(_STLP_BITSET) && !defined(__STD_BITS) && !defined(_GLIBCPP_BITSET_H) && !defined(_GLIBCXX_BITSET)
+    #include <bitset>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cassert">
+<![CDATA[
+#include <cassert>
+]]>
+</template>
+
+<template name="c-include-assert.h">
+<![CDATA[
+#include <assert.h>
+]]>
+</template>
+
+<template name="cpp-include-cctype">
+<![CDATA[
+#if !defined(_CCTYPE_) && !defined(_STLP_CCTYPE) && !defined(_CPP_CCTYPE) && !defined(_GLIBCXX_CCTYPE)
+    #include <cctype>
+#endif
+]]>
+</template>
+
+<template name="c-include-ctype.h">
+<![CDATA[
+#if !defined(_INC_CTYPE) && !defined(_CTYPE_H_) && !defined(_CTYPE_H)
+    #include <ctype.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cerrno">
+<![CDATA[
+#if !defined(_CERRNO_) && !defined(_STLP_CERRNO) && !defined(_CPP_CERRNO) && !defined(_GLIBCXX_CERRNO)
+    #include <cerrno>
+#endif
+]]>
+</template>
+
+<template name="c-include-errno.h">
+<![CDATA[
+#if !defined(_INC_ERRNO) && !defined(_ERRNO_H_) && !defined(_ERRNO_H)
+    #include <errno.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cfloat">
+<![CDATA[
+#if !defined(_CFLOAT_) && !defined(_STLP_CFLOAT) && !defined(_CPP_CFLOAT) && !defined(_GLIBCXX_CFLOAT)
+    #include <cfloat>
+#endif
+]]>
+</template>
+
+<template name="c-include-float.h">
+<![CDATA[
+#if !defined(_INC_FLOAT) && !defined(_FLOAT_H_) && !defined(_FLOAT_H)
+    #include <float.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-ciso646">
+<![CDATA[
+#if !defined(_CISO646_)
+    #include <ciso646>
+#endif
+]]>
+</template>
+
+<template name="c-include-iso646.h">
+<![CDATA[
+#if !defined(_ISO646) && !defined(__ISO646_H)
+    #include <iso646.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-climits">
+<![CDATA[
+#if !defined(_CLIMITS_) && !defined(_STLP_CLIMITS) && !defined(_CPP_CLIMITS) && !defined(_GLIBCXX_CLIMITS)
+    #include <climits>
+#endif
+]]>
+</template>
+
+<template name="c-include-limits.h">
+<![CDATA[
+#if !defined(_INC_LIMITS) && !defined(_LIMITS_H_) && !defined(_LIMITS_H)
+    #include <limits.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-clocale">
+<![CDATA[
+#if !defined(_CLOCALE_) && !defined(_STLP_CLOCALE) && !defined(_CPP_CLOCALE) && !defined(_GLIBCXX_CLOCALE)
+    #include <clocale>
+#endif
+]]>
+</template>
+
+<template name="c-include-locale.h">
+<![CDATA[
+#if !defined(_INC_LOCALE) && !defined(_LOCALE_H_) && !defined(_LOCALE_H)
+    #include <locale.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cmath">
+<![CDATA[
+#if !defined(_CMATH_) && !defined(_STLP_CMATH) && !defined(_CPP_CMATH) && !defined(_GLIBCXX_MATH)
+    #include <cmath>
+#endif
+]]>
+</template>
+
+<template name="c-include-math.h">
+<![CDATA[
+#if !defined(_INC_MATH) && !defined(_MATH_H_) && !defined(_MATH_H)
+    #include <math.h>
+#endif
+]]>
+</template>
+
+<template name="c-include-malloc.h">
+<![CDATA[
+#if !defined(_INC_MALLOC) && !defined(_MALLOC_H_) && !defined(_MALLOC_H)
+    #include <malloc.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-complex">
+<![CDATA[
+#if !defined(_COMPLEX_) && !defined(__STD_COMPLEX) && !defined(_CPP_COMPLEX) && !defined(_GLIBCXX_COMPLEX)
+    #include <complex>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-csetjmp">
+<![CDATA[
+#if !defined(_CSETJMP_) && !defined(_STLP_CSETJMP) && !defined(_CPP_CSETJMP) && !defined(_GLIBCXX_CSETJMP)
+    #include <csetjmp>
+#endif
+]]>
+</template>
+
+<template name="c-include-setjmp.h">
+<![CDATA[
+#if !defined(_INC_SETJMP) && !defined(_SETJMP_H_) && !defined(_SETJMP_H)
+    #include <setjmp.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-csignal">
+<![CDATA[
+#if !defined(_CSIGNAL_) && !defined(_STLP_CSIGNAL) && !defined(_CPP_CSIGNAL) && !defined(_GLIBCXX_CSIGNAL)
+    #include <csignal>
+#endif
+]]>
+</template>
+
+<template name="c-include-signal.h">
+<![CDATA[
+#if !defined(_INC_SIGNAL) && !defined(_SIGNAL_H_) && !defined(_SIGNAL_H)
+    #include <signal.h>
+#endif
+]]>
+</template>
+
+<template name="c-include-process.h">
+<![CDATA[
+#if !defined(_INC_PROCESS)
+    #include <process.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cstdarg">
+<![CDATA[
+#if !defined(_CSTDARG_) && !defined(_STLP_CSTDARG) && !defined(_CPP_CSTDARG) && !defined(_GLIBCXX_CSTDARG)
+    #include <cstdarg>
+#endif
+]]>
+</template>
+
+<template name="c-include-stdarg.h">
+<![CDATA[
+#if !defined(_INC_STDARG) && !defined(_STDARG_H_) && !defined(_STDARG_H)
+    #include <stdarg.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cstddef">
+<![CDATA[
+#if !defined(_CSTDDEF_) && !defined(_STLP_CSTDDEF) && !defined(_CPP_CSTDDEF) && !defined(_GLIBCXX_CSTDDEF)
+    #include <cstddef>
+#endif
+]]>
+</template>
+
+<template name="c-include-stddef.h">
+<![CDATA[
+#if !defined(_INC_STDDEF) && !defined(_STDDEF_H_) && !defined(_STDDEF_H)
+    #include <stddef.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cstdio">
+<![CDATA[
+#if !defined(_CSTDIO_) && !defined(_STLP_CSTDIO) && !defined(_CPP_CSTDIO) && !defined(_GLIBCXX_CSTDIO)
+    #include <cstdio>
+#endif
+]]>
+</template>
+
+<template name="c-include-stdio.h">
+<![CDATA[
+#if !defined(_INC_STDIO) && !defined(_STDIO_H_) && !defined(_STDIO_H)
+    #include <stdio.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cstdlib">
+<![CDATA[
+#if !defined(_CSTDLIB_) && !defined(_STLP_CSTDLIB) && !defined(_CPP_CSTDLIB) && !defined(_GLIBCXX_CSTDLIB)
+    #include <cstdlib>
+#endif
+]]>
+</template>
+
+<template name="c-include-stdlib.h">
+<![CDATA[
+#if !defined(_INC_STDLIB) && !defined(_STDLIB_H_) && !defined(_STDLIB_H)
+    #include <stdlib.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cstring">
+<![CDATA[
+#if !defined(_CSTRING_) && !defined(_STLP_CSTRING) && !defined(_CPP_CSTRING) && !defined(_GLIBCXX_CSTRING)
+    #include <cstring>
+#endif
+]]>
+</template>
+
+<template name="c-include-string.h">
+<![CDATA[
+#if !defined(_INC_STRING) && !defined(__STRING_H_) && !defined(_STRING_H)
+    #include <string.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-ctime">
+<![CDATA[
+#if !defined(_CTIME_) && !defined(_STLP_CTIME) && !defined(_CPP_CTIME) && !defined(_GLIBCXX_CTIME)
+    #include <ctime>
+#endif
+]]>
+</template>
+
+<template name="c-include-time.h">
+<![CDATA[
+#if !defined(_INC_TIME) && !defined(_TIME_H_) && !defined(_TIME_H)
+    #include <time.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cwchar">
+<![CDATA[
+#if !defined(_CWCHAR_) && !defined(_STLP_CWCHAR) && !defined(_CPP_CWCHAR) && !defined(_GLIBCXX_CWCHAR)
+    #include <cwchar>
+#endif
+]]>
+</template>
+
+<template name="c-include-wchar.h">
+<![CDATA[
+#if !defined(_INC_WCHAR) && !defined(_WCHAR_H_) && !defined(_WCHAR_H)
+    #include <wchar.h>
+#endif
+]]>
+</template>
+
+<template name="c-include-tchar.h">
+<![CDATA[
+#if !defined(_INC_TCHAR) && !defined(_TCHAR_H_) && !defined(_TCHAR_H)
+    #include <tchar.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-cwctype">
+<![CDATA[
+#if !defined(_CWCTYPE_) && !defined(_STLP_CWCTYPE) && !defined(_CPP_CWCTYPE) && !defined(_GLIBCXX_CWCTYPE)
+    #include <cwctype>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-deque">
+<![CDATA[
+#if !defined(_DEQUE_) && !defined(_STLP_DEQUE) && !defined(__STD_DEQUE__) && !defined(_CPP_DEQUE) && !defined(_GLIBCXX_DEQUE)
+    #include <deque>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-exception">
+<![CDATA[
+#if !defined(_EXCEPTION_) && !defined(__EXCEPTION__) && !defined(_STLP_EXCEPTION) && !defined(__STD_EXCEPTION)
+    #include <exception>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-fstream">
+<![CDATA[
+#if !defined(_FSTREAM_) && !defined(_STLP_FSTREAM) && !defined(__STD_FSTREAM__) && !defined(_CPP_FSTREAM) && !defined(_GLIBCXX_FSTREAM)
+    #include <fstream>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-functional">
+<![CDATA[
+#if !defined(_FUNCTIONAL_) && !defined(_STLP_FUNCTIONAL) && !defined(__STD_FUNCTIONAL__) && !defined(_CPP_FUNCTIONAL) && !defined(_GLIBCXX_FUNCTIONAL)
+    #include <functional>
+#endif
+]]>
+</template>
+
+<!--template name="cpp-include-hash_map">
+<![CDATA[
+#if !defined(_HASH_MAP_) && !defined(_STLP_HASH_MAP)
+    #include <hash_map>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-hash_set">
+<![CDATA[
+#if !defined(_HASH_SET_) && !defined(_STLP_HASH_SET)
+    #include <hash_set>
+#endif
+]]>
+</template-->
+
+<template name="cpp-include-iomanip">
+<![CDATA[
+#if !defined(_IOMANIP_) && !defined(_STLP_IOMANIP) && !defined(__STD_IOMANIP__) && !defined(_CPP_IOMANIP) && !defined(_GLIBCXX_IOMANIP)
+    #include <iomanip>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-ios">
+<![CDATA[
+#if !defined(_IOS_) && !defined(_STLP_IOS) && !defined(__STD_IOS__) && !defined(_CPP_IOS) && !defined(_GLIBCXX_IOS)
+    #include <ios>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-iosfwd">
+<![CDATA[
+#if !defined(_IOSFWD_) && !defined(_STLP_IOSFWD) && !defined(__STD_IOSFWD__) && !defined(_CPP_IOSFWD) && !defined(_GLIBCXX_IOSFWD)
+    #include <iosfwd>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-iostream">
+<![CDATA[
+#if !defined(_IOSTREAM_) && !defined(_STLP_IOSTREAM) && !defined(__STD_IOSTREAM__) && !defined(_CPP_IOSTREAM) && !defined(_GLIBCXX_IOSTREAM)
+    #include <iostream>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-istream">
+<![CDATA[
+#if !defined(_ISTREAM_) && !defined(_STLP_ISTREAM) && !defined(__STD_ISTREAM__) && !defined(_CPP_ISTREAM) && !defined(_GLIBCXX_ISTREAM)
+    #include <istream>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-iterator">
+<![CDATA[
+#if !defined(_ITERATOR_) && !defined(_STLP_ITERATOR) && !defined(__STD_ITERATOR__) && !defined(_CPP_ITERATOR) && !defined(_GLIBCXX_ITERATOR)
+    #include <iterator>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-limits">
+<![CDATA[
+#if !defined(_LIMITS_) && !defined(_STLP_LIMITS) && !defined(__STD_LIMITS__) && !defined(_CPP_LIMITS) && !defined(_GLIBCXX_LIMITS)
+    #include <limits>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-list">
+<![CDATA[
+#if !defined(_LIST_) && !defined(_STLP_LIST) && !defined(__STD_LIST__) && !defined(_CPP_LIST) && !defined(_GLIBCXX_LIST)
+    #include <list>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-locale">
+<![CDATA[
+#if !defined(_LOCALE_) && !defined(_STLP_LOCALE) && !defined(__STD_LOCALE__) && !defined(_CPP_LOCALE) && !defined(_GLIBCXX_LOCALE)
+    #include <locale>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-map">
+<![CDATA[
+#if !defined(_MAP_) && !defined(_STLP_MAP) && !defined(__STD_MAP__) && !defined(_CPP_MAP) && !defined(_GLIBCXX_MAP)
+    #include <map>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-memory">
+<![CDATA[
+#if !defined(_MEMORY_) && !defined(_STLP_MEMORY) && !defined(__STD_MEMORY__) && !defined(_CPP_MEMORY) && !defined(_GLIBCXX_MEMORY)
+    #include <memory>
+#endif
+]]>
+</template>
+
+<template name="c-include-memory.h">
+<![CDATA[
+#if !defined(_INC_MEMORY) && !defined(_MEMORY_H_) && !defined(_MEMORY_H)
+    #include <memory.h>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-new">
+<![CDATA[
+#if !defined(_NEW_) && !defined(_NEW) && !defined(__NEW__) && !defined(_STLP_NEW) && !defined(__STD_NEW)
+    #include <>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-numeric">
+<![CDATA[
+#if !defined(_NUMERIC_) && !defined(_STLP_NUMERIC) && !defined(__STD_NUMERIC) && !defined(_CPP_NUMERIC) && !defined(_GLIBCXX_NUMERIC)
+    #include <numeric>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-ostream">
+<![CDATA[
+#if !defined(_OSTREAM_) && !defined(_STLP_OSTREAM) && !defined(__STD_OSTREAM__) && !defined(_CPP_OSTREAM) && !defined(_GLIBCXX_OSTREAM)
+    #include <ostream>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-queue">
+<![CDATA[
+#if !defined(_QUEUE_) && !defined(_STLP_QUEUE) && !defined(__STD_QUEUE__) && !defined(_CPP_QUEUE) && !defined(_GLIBCXX_QUEUE)
+    #include <queue>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-set">
+<![CDATA[
+#if !defined(_SET_) && !defined(_STLP_SET) && !defined(__STD_SET__) && !defined(_CPP_SET) && !defined(_GLIBCXX_SET)
+    #include <set>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-sstream">
+<![CDATA[
+#if !defined(_SSTREAM_) && !defined(_STLP_SSTREAM) && !defined(__STD_SSTREAM__) && !defined(_CPP_SSTREAM) && !defined(_GLIBCXX_SSTREAM)
+    #include <sstream>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-stack">
+<![CDATA[
+#if !defined(_STACK_) && !defined(_STLP_STACK) && !defined(__STD_STACK__) && !defined(_CPP_STACK) && !defined(_GLIBCXX_STACK)
+    #include <stack>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-stdexcept">
+<![CDATA[
+#if !defined(_STDEXCEPT_) && !defined(_STLP_STDEXCEPT) && !defined(__STD_STDEXCEPT) && !defined(_CPP_STDEXCEPT) && !defined(_GLIBCXX_STDEXCEPT)
+    #include <stdexcept>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-streambuf">
+<![CDATA[
+#if !defined(_STREAMBUF_) && !defined(_STLP_STREAMBUF) && !defined(__STD_STREAMBUF__) && !defined(_CPP_STREAMBUF) && !defined(_GLIBCXX_STREAMBUF)
+    #include <streambuf>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-string">
+<![CDATA[
+#if !defined(_STRING_) && !defined(_STLP_STRING) && !defined(__STD_STRING) && !defined(_CPP_STRING) && !defined(_GLIBCXX_STRING)
+    #include <string>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-strstream">
+<![CDATA[
+#if !defined(_STRSTREAM_) && !defined(_STLP_STRSTREAM) && !defined(__STD_STRSTREAM__) && !defined(_CPP_STRSTREAM)
+    #include <strstream>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-typeinfo">
+<![CDATA[
+#if !defined(_TYPEINFO_) && !defined(_TYPEINFO) && !defined(__TYPEINFO__) && !defined(_STLP_TYPEINFO)
+    #include <typeinfo>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-utility">
+<![CDATA[
+#if !defined(_UTILITY_) && !defined(_STLP_UTILITY) && !defined(__STD_UTILITY__) && !defined(_CPP_UTILITY) && !defined(_GLIBCXX_UTILITY)
+    #include <utility>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-valarray">
+<![CDATA[
+#if !defined(_VALARRAY_) && !defined(_STLP_VALARRAY) && !defined(__STD_VALARRAY__) && !defined(_CPP_VALARRAY) && !defined(_GLIBCXX_VALARRAY)
+    #include <valarray>
+#endif
+]]>
+</template>
+
+<template name="cpp-include-vector">
+<![CDATA[
+#if !defined(_VECTOR_) && !defined(_STLP_VECTOR) && !defined(__STD_VECTOR__) && !defined(_CPP_VECTOR) && !defined(_GLIBCXX_VECTOR)
+    #include <vector>
+#endif
+]]>
+</template>
+
+<!--template name="cpp-include-">
+<![CDATA[
+#if !defined()
+    #include <>
+#endif
+]]>
+</template-->
+
+</templates>
+
+
+</texttp>

@@ -1,0 +1,78 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlC]
+"Description"="Comment selected"
+"Sequence"="F11 i C"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlShiftC]
+"Description"="Unomment selected"
+"Sequence"="F11 i U"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\AltC]
+"Description"="Select commented"
+"Sequence"="F11 i S"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlZ]
+"Description"="Increase indent"
+"Sequence"="F11 i I"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlShiftZ]
+"Description"="Decrease indent"
+"Sequence"="F11 i D"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlX]
+"Description"="Increase indent (1 ws)"
+"Sequence"="F11 i +"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlShiftX]
+"Description"="Decrease indent (1 ws)"
+"Sequence"="F11 i -"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlAltD]
+"Description"="Select lines block (up)"
+"Sequence"="F11 i L"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\AltD]
+"Description"="Select lines block (down)"
+"Sequence"="F11 i K"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlD]
+"Description"="Select code block"
+"Sequence"="F11 i B"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlShiftD]
+"Description"="Select code block and header"
+"Sequence"="F11 i H"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001

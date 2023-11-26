@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<texttp>
+
+<templates>
+
+<template name="c-comment">/* @ */</template>
+
+<template name="cpp-comment">// @ </template>
+
+<template name="cpp-separator-line">
+//-------------------------------------------------------------------------
+</template>
+
+<template name="c-separator-line"  >
+/*-----------------------------------------------------------------------*/
+</template>
+
+<template name="c-function"  >
+<![CDATA[
+
+/*-----------------------------------------------------------------------*/
+void $FunctionName$()
+   {
+    @
+   }
+]]>
+</template>
+
+<template name="cpp-function"  >
+<![CDATA[
+
+//-------------------------------------------------------------------------
+void $FunctionName$()
+   {
+    @
+   }
+]]>
+</template>
+
+</templates>
+
+</texttp>

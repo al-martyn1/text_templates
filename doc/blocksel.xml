@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<texttp>
+
+<incremental-selection>
+
+    <break-symbols file-type="default">
+        <break-symbol>;</break-symbol>
+        <break-symbol>:</break-symbol>
+        <break-symbol>,</break-symbol>
+        <break-symbol>.</break-symbol>
+        <break-symbol-pair begin="(" end=")"/>
+        <break-symbol-pair begin="/*" end="*/"/>
+        <break-symbol-pair begin="{" end="}"/>
+        <break-symbol-pair begin="[" end="]"/>
+        <break-symbol-pair begin="&lt;" end="&gt;"/>
+    </break-symbols>
+
+    <break-symbols file-type="c-src,cpp-src,csharp-src,java-src,php-src"
+                   use-backslash-escape="true"
+                   use-duplicate-quotation-escape="false"
+                   use-single-quotes="true"
+                   use-double-quotes="true">
+        <break-symbol>;</break-symbol>
+        <break-symbol>:</break-symbol>
+        <break-symbol>,</break-symbol>
+        <break-symbol>.</break-symbol>
+        <break-symbol>::</break-symbol>
+        <break-symbol>-></break-symbol>
+        <break-symbol>+=</break-symbol>
+        <break-symbol>-=</break-symbol>
+        <break-symbol>*=</break-symbol>
+        <break-symbol>/=</break-symbol>
+        <break-symbol>&amp;=</break-symbol>
+        <break-symbol>|=</break-symbol>
+        <break-symbol>==</break-symbol>
+        <break-symbol>!=</break-symbol>
+        <break-symbol>&lt;=</break-symbol>
+        <break-symbol>&gt;=</break-symbol>
+        <break-symbol>^=</break-symbol>
+        <break-symbol>=</break-symbol>
+        <break-symbol>&gt;&gt;</break-symbol>
+        <break-symbol>&gt;&gt;=</break-symbol>
+        <break-symbol>&lt;&lt;</break-symbol>
+        <break-symbol>&lt;&lt;=</break-symbol>
+        <break-symbol>+</break-symbol>
+        <break-symbol>-</break-symbol>
+        <break-symbol>/</break-symbol>
+        <break-symbol>*</break-symbol>
+        <break-symbol>&amp;</break-symbol>
+        <break-symbol>|</break-symbol>
+        <break-symbol>^</break-symbol>
+        <break-symbol>||</break-symbol>
+        <break-symbol>&amp;&amp;</break-symbol>
+        <break-symbol>!</break-symbol>
+        <!--break-symbol></break-symbol-->
+        <break-symbol-pair begin="(" end=")"/>
+        <break-symbol-pair begin="/*" end="*/"/>
+        <break-symbol-pair begin="{" end="}"/>
+        <break-symbol-pair begin="[" end="]"/>
+        <break-symbol-pair begin="&lt;" end="&gt;"/>
+    </break-symbols>
+
+    <break-symbols file-type="xml,html,asp-net,js-src"
+                   use-backslash-escape="false"
+                   use-duplicate-quotation-escape="false"
+                   use-single-quotes="true"
+                   use-double-quotes="true">
+        <break-symbol>:</break-symbol>
+        <break-symbol>=</break-symbol>
+        <break-symbol-pair begin="&lt;" end="&gt;"/>
+        <break-symbol-pair begin="&lt;!--" end="--&gt;"/>
+    </break-symbols>
+    <!--
+    <break-symbols file-type="pas-src"
+                   use-backslash-escape="false"
+                   use-duplicate-quotation-escape="true"
+                   use-single-quotes="true"
+                   use-double-quotes="true">
+        <break-symbol>:</break-symbol>
+        <break-symbol>=</break-symbol>
+        <break-symbol-pair begin="&lt;" end="&gt;"/>
+    </break-symbols>
+    -->
+
+</incremental-selection>
+
+
+
+
+
+
+<block-selections>
+    <selection file-type="c-src,cpp-src,csharp-src,java-src" case-sensitive="true">
+        <block begin="{" end="}"/>
+        <block begin="/*" end="*/"/>
+    </selection>
+
+    <selection file-type="pas-src" case-sensitive="false">
+        <block begin="Begin" end="End"/>
+        <!--block begin="/*" end="*/"/-->
+    </selection>
+
+    <selection file-type="xml,html" case-sensitive="true">
+        <block begin="&lt;!--" end="--&gt;"/>
+        <!-- Does not work
+        <block begin="&lt;"    end="/&gt;"/>
+        -->
+    </selection>
+
+    <selection file-type="perl-src" case-sensitive="true">
+        <block begin="{" end="}"/>
+    </selection>
+
+</block-selections>
+</texttp>

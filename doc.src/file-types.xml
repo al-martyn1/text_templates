@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<texttp>
+    <file-types>
+        <file-type type="c-src"   mask="*.c,*.h" use-path="false"/>
+        <file-type type="cpp-src" mask="*.cpp,*.cxx,*.c++,*.hpp" use-path="false"/>
+        <file-type type="xml"     mask="*.xml" use-path="false"/>
+        <file-type type="html"    mask="*.html,*.htm" use-path="false"/>
+    </file-types>
+</texttp>

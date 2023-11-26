@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<texttp>
+
+<include file="stdincludes.xml"/>
+<include file="atlincludes.xml"/>
+<include file="winincludes.xml"/>
+<include file="nixincludes.xml"/>
+<include file="c-defines.xml"/>
+
+
+
+
+<shortcuts>
+    <shortcut name="/*"  file-type="csrc" template="c-comment"/>
+    <shortcut name="cseparator"  file-type="csrc" template="c-separator-line"/>
+    <shortcut name="xseparator"  file-type="csrc" template="cpp-separator-line"/>
+    <shortcut name="cheader"     file-type="csrc" template="file:cheader.h" line-before="true" line-after="true" keep-indent="true"/>
+    <shortcut name="namespace"   file-type="csrc" template="file:namespace.cpp" keep-indent="true"/>
+    <shortcut name="sclass"      file-type="csrc" template="file:shortcls.cpp" keep-indent="true"/>
+    <shortcut name="fclass"      file-type="csrc" template="file:fullcls.cpp" keep-indent="true"/>
+    <shortcut name="xstruct"     file-type="csrc" template="file:cxstruct.cpp" keep-indent="true"/>
+    <shortcut name="cstruct"     file-type="csrc" template="file:cstruct.cpp" keep-indent="true"/>
+    <shortcut name="main"        file-type="csrc" template="file:main.cpp" keep-indent="true"/>
+    <shortcut name="tmain"       file-type="csrc" template="file:tmain.cpp" keep-indent="true"/>
+    <shortcut name="cfunction"   file-type="csrc" template="c-function" keep-indent="true"/>
+    <shortcut name="xfunction"   file-type="csrc" template="cpp-function" keep-indent="true"/>
+
+    <shortcut name="if"          file-type="csrc" template="if-c-statement" keep-indent="true"/>
+    <shortcut name="elif"        file-type="csrc" template="if-else-c-statement" keep-indent="true"/>
+    <shortcut name="for"         file-type="csrc" template="for-c-statement" keep-indent="true"/>
+    <shortcut name="while"       file-type="csrc" template="while-c-statement" keep-indent="true"/>
+    <shortcut name="switch"      file-type="csrc" template="switch-c-statement" keep-indent="true"/>
+    <!--shortcut name=""   file-type="csrc" template="" keep-indent="true"/-->
+
+    <shortcut name="defcount"       file-type="csrc" template="c-define-count"        keep-indent="true"/>
+    <shortcut name="defsizeofarray" file-type="csrc" template="c-define-sizeof-array" keep-indent="true"/>
+    <shortcut name="deftstring"     file-type="csrc" template="cpp-typedef-tstring"   keep-indent="true"/>
+    <shortcut name="pragmaregion"   file-type="csrc" template="pragma-region"         keep-indent="true"/>
+    <shortcut name="regionpragma"   file-type="csrc" template="pragma-region"         keep-indent="true"/>
+
+
+    <shortcut name="iclipboard"  file-type="csrc" template="c-include-clipboard" keep-indent="true"/>    
+
+    <!-- CRT, STL includes -->
+    <shortcut name="ialgorithm"   file-type="csrc" template="cpp-include-algorithm"  line-after="true" keep-indent="true"/>
+    <shortcut name="ibitset"      file-type="csrc" template="cpp-include-bitset"     line-after="true" keep-indent="true"/>
+    <shortcut name="icassert"     file-type="csrc" template="cpp-include-cassert"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihassert"     file-type="csrc" template="c-include-assert.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="icctype"      file-type="csrc" template="cpp-include-ctype"      line-after="true" keep-indent="true"/>
+    <shortcut name="ihctype"      file-type="csrc" template="c-include-ctype.h"      line-after="true" keep-indent="true"/>
+    <shortcut name="icerrno"      file-type="csrc" template="cpp-include-cerrno"     line-after="true" keep-indent="true"/>
+    <shortcut name="iherrno"      file-type="csrc" template="c-include-errno.h"      line-after="true" keep-indent="true"/>
+    <shortcut name="icfloat"      file-type="csrc" template="cpp-include-cfloat"     line-after="true" keep-indent="true"/>
+    <shortcut name="ihfloat"      file-type="csrc" template="c-include-float.h"      line-after="true" keep-indent="true"/>
+    <shortcut name="iciso646"     file-type="csrc" template="cpp-include-ciso646"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihiso646"     file-type="csrc" template="c-include-iso646.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="iclimits"     file-type="csrc" template="cpp-include-climits"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihlimits"     file-type="csrc" template="c-include-limits.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="iclocale"     file-type="csrc" template="cpp-include-clocale"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihlocale"     file-type="csrc" template="c-include-locale.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="icmath"       file-type="csrc" template="cpp-include-cmath"      line-after="true" keep-indent="true"/>
+    <shortcut name="ihmath"       file-type="csrc" template="c-include-math.h"       line-after="true" keep-indent="true"/>
+    <shortcut name="ihmalloc"     file-type="csrc" template="c-include-malloc.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="icomplex"     file-type="csrc" template="cpp-include-complex"    line-after="true" keep-indent="true"/>
+    <shortcut name="icsetjmp"     file-type="csrc" template="cpp-include-csetjmp"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihsetjmp"     file-type="csrc" template="c-include-setjmp.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="icsignal"     file-type="csrc" template="cpp-include-csignal"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihsignal"     file-type="csrc" template="c-include-signal.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="iprocess.h"   file-type="csrc" template="c-include-process.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="icstdarg"     file-type="csrc" template="cpp-include-cstdarg"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihstdarg"     file-type="csrc" template="c-include-stdarg.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="icstddef"     file-type="csrc" template="cpp-include-cstddef"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihstddef"     file-type="csrc" template="c-include-stddef.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="icstdio"      file-type="csrc" template="cpp-include-cstdio"     line-after="true" keep-indent="true"/>
+    <shortcut name="ihstdio"      file-type="csrc" template="c-include-stdio.h"      line-after="true" keep-indent="true"/>
+    <shortcut name="icstdlib"     file-type="csrc" template="cpp-include-cstdlib"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihstdlib"     file-type="csrc" template="c-include-stdlib.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="icstring"     file-type="csrc" template="cpp-include-cstring"    line-after="true" keep-indent="true"/>
+    <shortcut name="ihstring"     file-type="csrc" template="c-include-string.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="ictime"       file-type="csrc" template="cpp-include-ctime"      line-after="true" keep-indent="true"/>
+    <shortcut name="ihtime"       file-type="csrc" template="c-include-time.h"       line-after="true" keep-indent="true"/>
+    <shortcut name="icwchar"      file-type="csrc" template="cpp-include-cwchar"     line-after="true" keep-indent="true"/>
+    <shortcut name="ihwchar"      file-type="csrc" template="c-include-wchar.h"      line-after="true" keep-indent="true"/>
+    <shortcut name="ihtchar"      file-type="csrc" template="c-include-tchar.h"      line-after="true" keep-indent="true"/>
+    <shortcut name="icwctype"     file-type="csrc" template="cpp-include-cwctype"    line-after="true" keep-indent="true"/>
+    <shortcut name="ideque"       file-type="csrc" template="cpp-include-deque"      line-after="true" keep-indent="true"/>
+    <shortcut name="iexception"   file-type="csrc" template="cpp-include-exception"  line-after="true" keep-indent="true"/>
+    <shortcut name="ifstream"     file-type="csrc" template="cpp-include-fstream"    line-after="true" keep-indent="true"/>
+    <shortcut name="ifunctional"  file-type="csrc" template="cpp-include-functional" line-after="true" keep-indent="true"/>
+    <!--shortcut name="ihash_map"    file-type="csrc" template="cpp-include-hash_map"   line-after="true" keep-indent="true"/>
+    <shortcut name="ihash_set"    file-type="csrc" template="cpp-include-hash_set"   line-after="true" keep-indent="true"/-->
+    <shortcut name="iiomanip"     file-type="csrc" template="cpp-include-iomanip"    line-after="true" keep-indent="true"/>
+    <shortcut name="iios"         file-type="csrc" template="cpp-include-ios"        line-after="true" keep-indent="true"/>
+    <shortcut name="iiosfwd"      file-type="csrc" template="cpp-include-iosfwd"     line-after="true" keep-indent="true"/>
+    <shortcut name="iiostream"    file-type="csrc" template="cpp-include-iostream"   line-after="true" keep-indent="true"/>
+    <shortcut name="iistream "    file-type="csrc" template="cpp-include-istream"    line-after="true" keep-indent="true"/>
+    <shortcut name="iiterator"    file-type="csrc" template="cpp-include-iterator"   line-after="true" keep-indent="true"/>
+    <shortcut name="ilimits"      file-type="csrc" template="cpp-include-limits"     line-after="true" keep-indent="true"/>
+    <shortcut name="ilist"        file-type="csrc" template="cpp-include-list"       line-after="true" keep-indent="true"/>
+    <shortcut name="ilocale"      file-type="csrc" template="cpp-include-locale"     line-after="true" keep-indent="true"/>
+    <shortcut name="imap"         file-type="csrc" template="cpp-include-map"        line-after="true" keep-indent="true"/>
+    <shortcut name="imemory"      file-type="csrc" template="cpp-include-memory"     line-after="true" keep-indent="true"/>
+    <shortcut name="ihmemory"     file-type="csrc" template="c-include-memory.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="inew"         file-type="csrc" template="cpp-include-new"        line-after="true" keep-indent="true"/>
+    <shortcut name="inumeric"     file-type="csrc" template="cpp-include-numeric"    line-after="true" keep-indent="true"/>
+    <shortcut name="iostream"     file-type="csrc" template="cpp-include-ostream"    line-after="true" keep-indent="true"/>
+    <shortcut name="iqueue"       file-type="csrc" template="cpp-include-queue"      line-after="true" keep-indent="true"/>
+    <shortcut name="iset"         file-type="csrc" template="cpp-include-set"        line-after="true" keep-indent="true"/>
+    <shortcut name="isstream"     file-type="csrc" template="cpp-include-sstream"    line-after="true" keep-indent="true"/>
+    <shortcut name="istack"       file-type="csrc" template="cpp-include-stack"      line-after="true" keep-indent="true"/>
+    <shortcut name="istdexcept"   file-type="csrc" template="cpp-include-stdexcept"  line-after="true" keep-indent="true"/>
+    <shortcut name="istreambuf"   file-type="csrc" template="cpp-include-streambuf"  line-after="true" keep-indent="true"/>
+    <shortcut name="istring"      file-type="csrc" template="cpp-include-string"     line-after="true" keep-indent="true"/>
+    <shortcut name="istrstream"   file-type="csrc" template="cpp-include-strstream"  line-after="true" keep-indent="true"/>
+    <shortcut name="itypeinfo"    file-type="csrc" template="cpp-include-typeinfo"   line-after="true" keep-indent="true"/>
+    <shortcut name="iutility"     file-type="csrc" template="cpp-include-utility"    line-after="true" keep-indent="true"/>
+    <shortcut name="ivalarray"    file-type="csrc" template="cpp-include-valarray"   line-after="true" keep-indent="true"/>
+    <shortcut name="ivector"      file-type="csrc" template="cpp-include-vector"     line-after="true" keep-indent="true"/>
+
+    <!-- Windows includes -->
+    <shortcut name="iwindows.h"  file-type="csrc" template="win-include-windows.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="ixwindowsx.h" file-type="csrc" template="win-include-windowsx.h" line-after="true" keep-indent="true"/>
+    <shortcut name="iwindef.h"   file-type="csrc" template="win-include-windef.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iwinerror.h" file-type="csrc" template="win-include-winerror.h" line-after="true" keep-indent="true"/>
+    <shortcut name="iwingdi.h"   file-type="csrc" template="win-include-wingdi.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iwinsock2.h" file-type="csrc" template="win-include-winsock2.h" line-after="true" keep-indent="true"/>
+    <shortcut name="iwinbase.h"  file-type="csrc" template="win-include-winbase.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iwincon.h"   file-type="csrc" template="win-include-wincon.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iwininet.h"  file-type="csrc" template="win-include-wininet.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iwinnt.h"    file-type="csrc" template="win-include-winnt.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iwinreg.h"   file-type="csrc" template="win-include-winreg.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iwinsvc.h"   file-type="csrc" template="win-include-winsvc.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iwinver.h"   file-type="csrc" template="win-include-winver.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="icommctrl.h" file-type="csrc" template="win-include-commctrl.h" line-after="true" keep-indent="true"/>
+    <shortcut name="icommdlg.h"  file-type="csrc" template="win-include-commdlg.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iobjbase.h"  file-type="csrc" template="win-include-objbase.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="ishellapi.h" file-type="csrc" template="win-include-shellapi.h" line-after="true" keep-indent="true"/>
+    <shortcut name="ishfolder.h" file-type="csrc" template="win-include-shfolder.h" line-after="true" keep-indent="true"/>
+    <shortcut name="ishlguid.h"  file-type="csrc" template="win-include-shlguid.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="ishlobj.h"   file-type="csrc" template="win-include-shlobj.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="ishlwapi.h"  file-type="csrc" template="win-include-shlwapi.h"  line-after="true" keep-indent="true"/>
+    
+    
+    <!-- ATL headers -->   
+    <shortcut name="iatlbase.h"   file-type="csrc" template="atl-include-atlbase.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlcom.h"    file-type="csrc" template="atl-include-atlcom.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatlconv.h"   file-type="csrc" template="atl-include-atlconv.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlcore.h"   file-type="csrc" template="atl-include-atlcore.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlctl.h"    file-type="csrc" template="atl-include-atlctl.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatlcur.h"    file-type="csrc" template="atl-include-atlcur.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatldb.h"     file-type="csrc" template="atl-include-atldb.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="iatldef.h"    file-type="csrc" template="atl-include-atldef.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatlenc.h"    file-type="csrc" template="atl-include-atlenc.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatlexcept.h" file-type="csrc" template="atl-include-atlexcept.h" line-after="true" keep-indent="true"/>
+    <shortcut name="iatlfile.h"   file-type="csrc" template="atl-include-atlfile.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlhost.h"   file-type="csrc" template="atl-include-atlhost.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlstr.h"    file-type="csrc" template="atl-include-atlstr.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatltrace.h"  file-type="csrc" template="atl-include-atltrace.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatltypes.h"  file-type="csrc" template="atl-include-atltypes.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatlutil.h"   file-type="csrc" template="atl-include-atlutil.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlwin.h"    file-type="csrc" template="atl-include-atlwin.h"    line-after="true" keep-indent="true"/>
+
+    <!-- ATL/WTL headers -->   
+    <shortcut name="iatlapp.h"    file-type="csrc" template="atl-include-atlapp.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatlcrack.h"  file-type="csrc" template="atl-include-atlcrack.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatlctrls.h"  file-type="csrc" template="atl-include-atlctrls.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatlctrlx.h"  file-type="csrc" template="atl-include-atlctrlx.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatlctrlw.h"  file-type="csrc" template="atl-include-atlctrlw.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatlddx.h"    file-type="csrc" template="atl-include-atlddx.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatldlgs.h"   file-type="csrc" template="atl-include-atldlgs.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlframe.h"  file-type="csrc" template="atl-include-atlframe.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatlgdi.h"    file-type="csrc" template="atl-include-atlgdi.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatlxgdi.h"   file-type="csrc" template="atl-include-atlgdix.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlmisc.h"   file-type="csrc" template="atl-include-atlmisc.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlprint.h"  file-type="csrc" template="atl-include-atlprint.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatlres.h"    file-type="csrc" template="atl-include-atlres.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="iatlscrl.h"   file-type="csrc" template="atl-include-atlscrl.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlsplit.h"  file-type="csrc" template="atl-include-atlsplit.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatltheme.h"  file-type="csrc" template="atl-include-atltheme.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="iatluser.h"   file-type="csrc" template="atl-include-atluser.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="iatlwinx.h"   file-type="csrc" template="atl-include-atlwinx.h"   line-after="true" keep-indent="true"/>
+
+
+    <!-- Some *nix headers -->   
+    <shortcut name="idirent.h"    file-type="csrc" template="nix-include-dirent.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="iunistd.h"    file-type="csrc" template="nix-include-unistd.h"     line-after="true" keep-indent="true"/>
+    <shortcut name="isysstat.h"   file-type="csrc" template="nix-include-sys/stat.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="isystypes.h"  file-type="csrc" template="nix-include-sys/types.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="isystime.h"   file-type="csrc" template="nix-include-sys/time.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="isyssocket.h" file-type="csrc" template="nix-include-sys/socket.h" line-after="true" keep-indent="true"/>
+    <shortcut name="isysselect.h" file-type="csrc" template="nix-include-sys/select.h" line-after="true" keep-indent="true"/>
+    <shortcut name="isyspoll.h"   file-type="csrc" template="nix-include-sys/poll.h"   line-after="true" keep-indent="true"/>
+    <shortcut name="ifcntl.h"     file-type="csrc" template="nix-include-fcntl.h"      line-after="true" keep-indent="true"/>
+    <shortcut name="inetinetin.h" file-type="csrc" template="nix-include-netinet/in.h" line-after="true" keep-indent="true"/>
+    <shortcut name="iarpainet.h"  file-type="csrc" template="nix-include-arpa/inet.h"  line-after="true" keep-indent="true"/>
+    <shortcut name="ipthread.h"   file-type="csrc" template="nix-include-pthread.h"    line-after="true" keep-indent="true"/>
+    <shortcut name="isemaphore.h" file-type="csrc" template="nix-include-semaphore.h"  line-after="true" keep-indent="true"/>
+
+
+
+
+
+
+
+    <!--shortcut name=""  file-type="csrc" template="" line-before="true" line-after="true" keep-indent="true"/-->
+
+</shortcuts>
+
+
+
+<!-- CPP Headers defines check order MSVC, BCB6, BCB<6, GCC3.4 from MinGW5, GCC3.2.3 -->
+
+<templates>
+
+<template name="c-comment">/* @ */</template>
+<template name="cpp-separator-line">//-----------------------------------------------------------------------------</template>
+<template name="c-separator-line"  >/*---------------------------------------------------------------------------*/</template>
+
+<template name="c-include-clipboard">
+<![CDATA[
+#if !defined($_CLIPBOARD_$)
+    #include "$_clipboard_$"
+#endif
+]]>
+</template>
+
+<template name="c-function"  >
+<![CDATA[
+void $FunctionName$()
+{
+    @
+}
+/*---------------------------------------------------------------------------*/
+]]>
+</template>
+
+<template name="cpp-function"  >
+<![CDATA[
+void $FunctionName$()
+{
+    @
+}
+//-----------------------------------------------------------------------------
+]]>
+</template>
+
+<template name="if-c-statement"  >
+<![CDATA[
+if (@)
+   {
+    
+   }
+]]>
+</template>
+
+<template name="if-else-c-statement"  >
+<![CDATA[
+if (@)
+   {
+    
+   }
+else
+   {
+    
+   }
+]]>
+</template>
+
+<template name="for-c-statement"  >
+<![CDATA[
+for(;@;)
+   {
+    
+   }
+]]>
+</template>
+
+<template name="while-c-statement"  >
+<![CDATA[
+while(@)
+   {
+    
+   }
+]]>
+</template>
+
+<template name="switch-c-statement"  >
+<![CDATA[
+switch(@)
+   {
+    case :  
+            break;
+    case :  
+            break;
+    default:            
+   }
+]]>
+</template>
+
+
+</templates>
+
+
+
+
+</texttp>

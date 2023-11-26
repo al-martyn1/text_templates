@@ -1,0 +1,50 @@
+1 Благодарности=SEC_BLAG@ttp.hlp 
+1 Использованные сторонние разработки=SEC_3DP_SRC@ttp.hlp 
+1 Требования к программному окружению=SEC_SYSTEM_REQUIREMENTS@ttp.hlp 
+1 Возможности плагина 
+2 Возможности плагина=SEC_FEATURES@ttp.hlp 
+2 Вставка шаблонов=SUBSEC_FEATURE_TEXT_TEMPLATES@ttp.hlp 
+2 Комментирование кода и работа с блоками текста=SUBSEC_FEATURE_COMMENTING_CODE@ttp.hlp 
+2 Форматирование блоков текста/кода=SUBSEC_FEATURE_FORMATING_CODE@ttp.hlp 
+2 Индивидуальные настройки редактора=SUBSEC_FEATURE_EDITOR_SETTING@ttp.hlp 
+2 Слежение за временем модификации файла=SUBSEC_FEATURE_EDOTOR_RELOADING@ttp.hlp 
+1 Отличия от аналогов 
+2 Отличия от аналогов=SEC_DIFF_OTHER_PLUGINS@ttp.hlp 
+2 Отличия от True Template=SEC_DIFF_TRUE_TEMPLATE@ttp.hlp 
+2 Отличия от External Filter=SEC_DIFF_EXTERNAL_FILTER@ttp.hlp 
+2 Отличия от ESC=SEC_DIFF_ESC@ttp.hlp 
+2 Прочие возможности=SEC_DIFF_2@ttp.hlp 
+1 Использование плагина 
+2 Слежение за модификацией редактируемого файла и переоткрытие файла=SEC_USAGE_REOPEN_BLOCK@ttp.hlp 
+2 Выделение блока строк=SEC_USAGE_SELECT_STRING_BLOCK@ttp.hlp 
+2 Выделение блока кода=SEC_USAGE_SELECT_CODE_BLOCK@ttp.hlp 
+2 Выделение блока кода и заголовка=SEC_USAGE_SELECT_CODE_BLOCK_AND_HEADER@ttp.hlp 
+2 Инкрементное выделение в строке=SEC_USAGE_INCREMENTAL_SELECTION@ttp.hlp 
+2 Комментирование кода=SEC_USAGE_COMMENTING_CODE@ttp.hlp 
+2 Форматирование текста=SEC_USAGE_FORMATTING_TEXT@ttp.hlp 
+2 Форматирование кода=SEC_USAGE_FORMATTING_CODE@ttp.hlp 
+1 Настройка плагина 
+2 Пользовательские конфигурационные файлы=SUBSEC_TUNING_USER_CONFIGS@ttp.hlp 
+2 Конфигурация плагина=SUBSEC_TUNING_GENERAL@ttp.hlp 
+2 Типы файлов=SUBSEC_FILE_TYPES@ttp.hlp 
+2 Шаблоны=SUBSEC_TEMPLATES@ttp.hlp 
+2 Переменные в теле шаблона=SUBSEC_TEMPLATES_VARIABLES@ttp.hlp 
+2 Шорткаты=SUBSEC_SHORTCUTS@ttp.hlp 
+2 Стандартные шорткаты=SUBSEC_STD_SHORTCUTS@ttp.hlp 
+2 Комментирование кода=SUBSEC_COMMENTING_CODE@ttp.hlp 
+2 Выделение блоков текста/кода=SUBSEC_BLOCK_SELECTION@ttp.hlp 
+2 Инкрементальное выделение=SUBSEC_INCREMENTAL_SELECTION@ttp.hlp 
+2 Индивидуальные настройки редактора=SUBSEC_TABULATION@ttp.hlp 
+2 Форматирование текста/кода 
+3 Форматирование текста/кода=SUBSEC_FORMATTING@ttp.hlp 
+3 Плагин simple-text-format=SUBSEC_FORMATTING_PLUGIN_SIMPLE_TEXT_FORMAT@ttp.hlp 
+3 Плагин external-formatter=SUBSEC_FORMATTING_PLUGIN_EXTERNAL_FORMATTER@ttp.hlp 
+1 TextTemplates API 
+2 TextTemplates API=SEC_TTPAPI@ttp.hlp 
+2 ttpapiCreateObject=ttpapiCreateObjectProc@ttp.hlp 
+2 Интерфейс ITtpApiUnknown=ITtpApiUnknown@ttp.hlp 
+2 Интерфейс IPluginVersionInfo=IPluginVersionInfo@ttp.hlp 
+2 Интерфейс ITtpConfig=ITtpConfig@ttp.hlp 
+2 Интерфейс ITtpApi=ITtpApi@ttp.hlp 
+2 ttpapi::findPlugin=ttpapi_findPlugin@ttp.hlp 
+2 ttpapi::getFileType=ttpapi_getFileType@ttp.hlp 

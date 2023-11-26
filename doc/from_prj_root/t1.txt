@@ -1,0 +1,76 @@
+$$ = $
+
+File name macrosses
+
+$_file_$          = F:\usr\SRC\Far\texttp\t1.txt
+$_file_name_$     = t1
+$_file_ext_$      = txt
+$_file_path_$     = F:\usr\SRC\Far\texttp
+$_FILE_$          = F__USR_SRC_FAR_TEXTTP_T1_TXT
+$_FILE_NAME_$     = T1
+$_FILE_EXT_$      = TXT
+$_FILE_PATH_$     = F__USR_SRC_FAR_TEXTTP
+
+
+Date & Time macrosses
+
+Local date & time
+
+$_LDT_a_$         = Wed      Abbreviated weekday name 
+$_LDT_A_$         = Wednesday      Full weekday name 
+$_LDT_b_$         = May      Abbreviated month name
+$_LDT_B_$         = May      Full month name
+$_LDT_d_$         = 2      Day of month as decimal number (1 - 31)
+$_LDT_dd_$        = 02     Day of month as decimal number (01 - 31)
+$_LDT_H_$         = 20      Hour in 24-hour format (0 - 23)
+$_LDT_HH_$        = 20     Hour in 24-hour format (00 - 23)
+$_LDT_h_$         = 8      Hour in 12-hour format (1 - 12)
+$_LDT_hh_$        = 08     Hour in 12-hour format (01 - 12)
+$_LDT_m_$         = 5      Month as decimal number (1 - 12)
+$_LDT_mm_$        = 05     Month as decimal number (01 - 12)
+$_LDT_M_$         = 55      Minute as decimal number (0 - 59)
+$_LDT_MM_$        = 55     Minute as decimal number (00 - 59)
+$_LDT_p_$         = PM      AM/PM indicator for 12-hour clock
+$_LDT_S_$         = 54      Second as decimal number (0 - 59)
+$_LDT_SS_$        = 54     Second as decimal number (00 - 59)
+$_LDT_w_$         = 3      Weekday as decimal number (0 - 6; Sunday is 0) 
+$_LDT_y_$         = 07      Year without century, as decimal number (00 - 99) 
+$_LDT_Y_$         = 2007      Year with century, as decimal number 
+$_LDT_TIME_$      = 20:55:54   Time, HH:MM:SS
+$_LDT_DATE_$      = 02.05.2007   Numerical date format, DD.MM.Y
+$_LDT_LDATE_$     = Wednesday, May 2, 2007  Long date format
+$_LDT_SDATE_$     = Wed, May 2, 2007  Short date format
+
+
+GMT date & time - as local, see above
+
+$_GDT_TIME_$      = 16:55:54
+$_GDT_DATE_$      = 02.05.2007
+
+
+Guid
+
+$_GUID_REGISTRY_$ = 025EFD35-7EA2-43D6-8F9A-E060D6DCFBA0
+$_GUID_CMACRO_$   = 025EFD35_7EA2_43D6_8F9A_E060D6DCFBA0
+$_GUID_DATA1_$    = 0x025efd35
+$_GUID_DATA2_$    = 0x7ea2
+$_GUID_DATA3_$    = 0x43d6
+$_GUID_DATA40_$   = 0x8f
+$_GUID_DATA41_$   = 0x9a
+$_GUID_DATA42_$   = 0xe0
+$_GUID_DATA43_$   = 0x60
+$_GUID_DATA44_$   = 0xd6
+$_GUID_DATA45_$   = 0xdc
+$_GUID_DATA46_$   = 0xfb
+$_GUID_DATA47_$   = 0xa0
+
+GUID - 0x025efd35, 0x7ea2, 0x43d6, 0x8f, 0x9a, 0xe0, 0x60, 0xd6, 0xdc, 0xfb, 0xa0
+
+
+
+Clipboard
+
+$_clipboard_$     =     <shortcut name="time" file-type="*" template="inline:" keep-indent="true"/>
+
+$_CLIPBOARD_$     = _____SHORTCUT_NAME__TIME__FILE_TYPE_____TEMPLATE__INLINE___KEEP_INDENT__TRUE___
+

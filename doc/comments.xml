@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<texttp>
+
+<comment-sequences>
+
+    <comment file-type="ttptest"
+             comment-type="stream"
+             begin-sequence="$"
+             indent="1"
+             end-at-new-line="true"
+             new-line-indent-before="0">
+    </comment>
+
+    <comment file-type="makefile"
+             comment-type="lines"
+             sequence="#"
+             indent="1">
+    </comment>
+
+    <comment file-type="c-src,cpp-src,csharp-src,java-src,csharp-src,js-src,lex-src,php-src"
+             comment-type="stream"
+             begin-sequence="/*"
+             end-sequence="*/"
+             indent="1"
+             new-line-indent-before="1">
+    </comment>
+
+    <comment file-type="c-src,php-src"
+             comment-type="lines"
+             begin-sequence="/*"
+             end-sequence="*/"
+             sequence="*"
+             indent="1"
+             end-at-new-line="true"
+             new-line-indent-before="1">
+    </comment>
+
+    <comment file-type="cpp-src,csharp-src,java-src,csharp-src,js-src,lex-src,php-src"
+             comment-type="lines"
+             sequence="//"
+             indent="1">
+    </comment>
+
+    <comment file-type="pas-src"
+             comment-type="lines"
+             begin-sequence="{"
+             end-sequence="}"
+             sequence="!"
+             indent="1"
+             end-at-new-line="false"
+             new-line-indent-before="0"><!-- end-at-new-line="true" --> 
+    </comment>
+
+    <comment file-type="pas-src"
+             comment-type="stream"
+             begin-sequence="{"
+             end-sequence="}"
+             indent="1">
+    </comment>
+
+    <comment file-type="perl-src"
+             comment-type="lines"
+             sequence="#"
+             indent="1">
+    </comment>
+
+    <comment file-type="bat-file"
+             comment-type="lines"
+             sequence="rem"
+             indent="1">
+    </comment>
+
+    <comment file-type="xml,html"
+             comment-type="stream"
+             begin-sequence="&lt;!--"
+             end-sequence="--&gt;"
+             indent="1">
+    </comment>
+
+    <comment file-type="xml,html"
+             comment-type="lines"
+             begin-sequence="&lt;!--"
+             end-sequence="--&gt;"
+             sequence="--"
+             indent="1"
+             end-at-new-line="true"
+             new-line-indent-before="2">
+    </comment>
+
+    <comment file-type="asp-net"
+             comment-type="stream"
+             begin-sequence="&lt;%--"
+             end-sequence="--%&gt;"
+             indent="1">
+    </comment>
+
+</comment-sequences>
+</texttp>

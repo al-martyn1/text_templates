@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () -->
+<Pnt y="3.1415">
+	<x>4</x>
+	<color red="255" green="255" blue="255"/>
+	<vec>
+		<item>8</item>
+		<item>33</item>
+	</vec>
+</Pnt>

@@ -1,0 +1,7 @@
+js код.
+Обычный indent, с вот такими параметрами:
+
+indent --blank-lines-after-declarations --blank-lines-after-procedures
+--braces-on-if-line --braces-on-struct-decl-line --indent-level 8
+--use-tabs --dont-break-procedure-type --brace-indent 0 --line-length
+120 --cuddle-else

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<texttp>
+
+<formatting>
+
+<!--  Styles for plain text  -->
+
+<style name="Left" hotkey="L" plugin="simple-text-format" 
+       file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+<style name="Right" hotkey="R" plugin="simple-text-format" 
+       file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">right</option>
+       </options>
+</style>
+
+<!--  Styles for C/C++  -->
+
+<style name="Ansi style (AStyle)" hotkey="A" plugin="external-formatter" 
+       file-type="c-src,cpp-src" keep-indent="true">
+       <options>
+           <option name="command">$__PluginBasePath$/tools/astyle</option>
+           <option name="command-line">--style=ansi</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+<style name="GNU style (AStyle)" hotkey="G" plugin="external-formatter" 
+       file-type="c-src,cpp-src" keep-indent="true">
+       <options>
+           <option name="command">$__PluginBasePath$/tools/astyle</option>
+           <option name="command-line">--style=gnu</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+</formatting>
+
+</texttp>

@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<texttp>
+
+<formatting>
+
+<!--  Styles for plain text  -->
+
+<style name="Default (Left)" hotkey="D" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+<style name="Left" hotkey="L" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+<style name="Right" hotkey="R" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">right</option>
+       </options>
+</style>
+
+<style name="Width" hotkey="W" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">width</option>
+       </options>
+</style>
+
+<style name="Left (Enumeration)" hotkey="E" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">0</option>
+           <option name="line-indent">3</option>
+           <option name="width">75</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+<style name="Left (No para indent)" hotkey="N" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">0</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+
+<!--  Styles for C/C++  -->
+
+<style name="Default" hotkey="A" plugin="external-formatter" file-type="c-src,cpp-src" keep-indent="true">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\astyle</option>
+           <!-- - -indent-classes -C -->
+           <!-- - -indent-switches -S -->
+           <!-- - -indent-cases -K -->
+           <!-- - -indent-brackets -B  -->
+           <!-- - -pad=oper -p  -->
+           <!-- - -pad=paren-in -D -->
+           <!-- - -one-line=keep-statements -o -->
+           <!-- - -convert-tabs -V  -->
+           <!-- - -one-line=keep-blocks -O  -->
+           <!-- - -mode=c  -->
+           <!-- - -indent-preprocessor -w  -->
+           <!-- - -max-instatement-indent=# / -M#  -->
+           <!--   -->
+           <!--   -->
+           <!--   -->
+           <!-- option name="command-line">- -mode=c - -indent=spaces=4 -C -S -K -B -p -D -o -V -O -w -M40</option -->
+           <option name="command-line">--style=gnu</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+<style name="Ansi style (AStyle)" hotkey="A" plugin="external-formatter" file-type="c-src,cpp-src" keep-indent="true">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\astyle</option>
+           <option name="command-line">--style=ansi</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+<style name="GNU style (AStyle)" hotkey="G" plugin="external-formatter" file-type="c-src,cpp-src" keep-indent="true">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\astyle</option>
+           <option name="command-line">--style=gnu</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+<style name="Linux style (AStyle)" hotkey="L" plugin="external-formatter" file-type="c-src,cpp-src" keep-indent="true">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\astyle</option>
+           <option name="command-line">--style=linux</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+<style name="Kernighan and Ritchie (AStyle)" hotkey="K" plugin="external-formatter" file-type="c-src,cpp-src" keep-indent="true">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\astyle</option>
+           <option name="command-line">--style=kr</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+
+<!--  Styles for Object Pascal/Delpi  -->
+<!-- Not work!!! -->
+
+<style name="Clarify (Jedi Code Format)" hotkey="C" plugin="external-formatter" file-type="pas-src" keep-indent="false">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\jcf</option>
+           <option name="command-line">-y -clarify -F $InputFile$ -out $OutputFile$</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+<style name="Obfuscate (Jedi Code Format)" hotkey="O" plugin="external-formatter" file-type="pas-src" keep-indent="false">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\jcf</option>
+           <option name="command-line">-y -obfuscate -F $InputFile$ -out $OutputFile$</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+
+<!--  Styles for test  -->
+
+<!--style name="Ext-test fail" hotkey="F" plugin="external-formatter" file-type="plain-text" keep-indent="false">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\ext-test.exe</option>
+           <option name="command-line"></option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style>
+
+<style name="Ext-test ok" hotkey="O" plugin="external-formatter" file-type="plain-text" keep-indent="false">
+       <options>
+           <option name="command">$__PluginBasePath$\tools\ext-test.exe</option>
+           <option name="command-line">$OutputFile$ -I $InputFile$ other args</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style-->
+
+</formatting>
+
+</texttp>

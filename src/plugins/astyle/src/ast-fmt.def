@@ -1,0 +1,4 @@
+LIBRARY
+EXPORTS
+    textFormatApiGetPluginInternalName
+    textFormatApiFormatText

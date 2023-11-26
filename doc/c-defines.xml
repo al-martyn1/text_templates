@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<texttp>
+
+
+<templates>
+
+
+<template name="c-define-count">
+<![CDATA[
+#if !defined(COUNT)
+    #define COUNT(a) (sizeof(a)/sizeof(a[0]))
+#endif
+]]>
+</template>
+
+<template name="c-define-sizeof-array">
+<![CDATA[
+#if !defined(SIZEOF_ARRAY)
+    #define SIZEOF_ARRAY(a) (sizeof(a)/sizeof(a[0]))
+#endif
+]]>
+</template>
+
+<template name="cpp-typedef-tstring">
+<![CDATA[
+#ifndef __TSTRING_DEFINED__
+#define __TSTRING_DEFINED__
+typedef std::basic_string< TCHAR, 
+                           std::char_traits<TCHAR>, 
+                           std::allocator<TCHAR> >  tstring;
+#endif 
+]]>
+</template>
+
+<!-- http://msdn2.microsoft.com/en-us/library/b6xkz944(VS.80).aspx -->
+<template name="pragma-region">
+<![CDATA[
+#pragma region $RegionName$
+#pragma endregion $RegionComment$
+]]>
+</template>
+
+
+
+
+</templates>
+
+
+</texttp>

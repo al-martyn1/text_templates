@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<texttp>
+
+<block-selections>
+    <selection file-type="c-src,cpp-src,csharp-src,java-src" case-sensitive="true">
+        <block begin="{" end="}"/>
+    </selection>
+
+    <selection file-type="pas-src" case-sensitive="false">
+        <block begin="Begin" end="End"/>
+    </selection>
+</block-selections>
+
+</texttp>

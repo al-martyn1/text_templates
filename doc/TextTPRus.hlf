@@ -1,0 +1,9 @@
+.Language=Russian,Russian (Русский)
+.PluginContents=Текстовые Шаблоны
+
+@Contents
+$ #Текстовые Шаблоны#
+    Этот плагин позволяет вставлять предопределенные блоки текста во встроенном 
+    редакторе FAR Manager.
+
+    Автор #Александр Мартынов# (~amart@@mail.ru~@mailto:amart@@mail.ru@)

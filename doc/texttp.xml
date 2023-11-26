@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<texttp>
+
+<file-types>
+    <!--file-type type="csrc"  mask=".c,.cpp,.cxx,.c++,.h,.hpp"/-->
+    <file-type type="makefile"   mask="Makefile,*.mak"/>
+    <file-type type="c-src"      mask="*.c,*.h"/>
+    <file-type type="cpp-src"    mask="*.cpp,*.cxx,*.c++,*.hpp"/>
+    <file-type type="csharp-src" mask="*.cs"/>
+    <file-type type="pas-src"    mask="*.pas"/>
+    <file-type type="java-src"   mask="*.java,*.class"/>
+    <file-type type="js-src"     mask="*.js"/>
+    <file-type type="lex-src"    mask="*.l"/>
+    <file-type type="asp-net"    mask="*.aspx,*.ascx,*.asax,*.ashx,*.skin,*.asp,*.master,*.asmx"/>
+    <file-type type="perl-src"   mask="*.pl"/>
+    <file-type type="bat-file"   mask="*.bat,*.cmd"/>
+    <file-type type="xml"        mask="*.xml,*.config,*.sitemap,*.browser,*.xsd,*.xslt,*.manifest"/>
+    <file-type type="vcproj"     mask="*.vcproj"/>
+    <file-type type="vcsln"      mask="*.sln"/>
+    <file-type type="html"       mask="*.html,.htm"/>
+    <file-type type="ttptest"    mask="*.ttptest"/>
+    <file-type type="plain-text" mask="*.txt"/>
+    <file-type type="php-src"    mask="*.php,*.php3,*.php4,*.php5,*.pxml,*.phtm,*.phtml"/>
+    <!--file-type type="" mask=""/-->
+</file-types>
+
+<shortcuts>
+    <!-- Common small macros -->
+    <shortcut name="date" file-type="*" template="inline:$_LDT_TIME_$" keep-indent="true"/>
+    <shortcut name="time" file-type="*" template="inline:$_LDT_DATE_$" keep-indent="true"/>
+    <shortcut name="dtime" file-type="*" template="inline:$_LDT_DATE_$ $_LDT_TIME_$" keep-indent="true"/>
+    <shortcut name="mtest" file-type="*" template="file:mtest.txt" keep-indent="true"/>
+</shortcuts>
+
+<include file="c-shortcuts.xml"/>
+<include file="xmlhtml.xml"/>
+<include file="comments.xml"/>
+<include file="blocksel.xml"/>
+<include file="fmtsty.xml"/>
+<include file="esettings.xml"/>
+
+
+
+</texttp>

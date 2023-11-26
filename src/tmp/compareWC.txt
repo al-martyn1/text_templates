@@ -1,0 +1,13 @@
++ .c*p equals to .cxxp
++ .in*mat* equals to .information
++ .in*mat* equals to .inmat
+- .in*mat* not equal to .infwat
++ .in*?at* equals to .infwat
+- .cpp not equal to .cxx
+- .c?? not equal to .hpp
++ .c?? equals to .cpp
++ .c?? equals to .cxx
+- .c* not equal to .hpp
++ .c* equals to .cpp
++ .c* equals to .cxx
++ .c* equals to .c

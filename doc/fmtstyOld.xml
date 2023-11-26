@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<texttp>
+
+<formatting>
+
+<!--  Styles for plain text  -->
+
+<style name="Default (Left)" hotkey="D" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+<style name="Left" hotkey="L" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+<style name="Right" hotkey="R" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">right</option>
+       </options>
+</style>
+
+<style name="Width" hotkey="W" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">2</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">width</option>
+       </options>
+</style>
+
+<style name="Left (Enumeration)" hotkey="E" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">0</option>
+           <option name="line-indent">3</option>
+           <option name="width">75</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+<style name="Left (No para indent)" hotkey="N" plugin="simple-text-format" file-type="plain-text">
+       <options>
+           <option name="indent">0</option>
+           <option name="para-first-line-indent">0</option>
+           <option name="line-indent">0</option>
+           <option name="width">78</option>
+           <option name="format-type">left</option>
+       </options>
+</style>
+
+
+<!--  Styles for C/C++  -->
+
+<style name="Kernighan and Ritchie (AStyle)" hotkey="K" plugin="external-formatter" file-type="c-src,cpp-src">
+       <options>
+           <option name="command">$__PluginPath$\tools\astyle</option>
+           <!--option name="command-line">$InputFile$ -o $OutputFile$ $ErrFile$ $$</option-->
+           <option name="command-line"></option>
+           <option name="keep-temp-files">true</option>
+       </options>
+</style>
+
+
+<!--      - -style=ansi
+  - -      - -style=gnu
+  - -      - -style=kr Kernighan&Ritchie 
+  - -      - -style=linux
+  - -      - -style=java
+  - -  
+  -->
+
+<!-- style name="External plugin test" hotkey="E" plugin="external-formatter" file-type="plain-text,c-src,cpp-src" useCRLF="true">
+       <options>
+           <option name="command">cmd</option>
+           <option name="command-line">$InputFile$ -o $OutputFile$ $ErrFile$ $$</option>
+           <option name="command-line">/C dir</option>
+           <option name="keep-temp-files">false</option>
+       </options>
+</style -->
+
+
+
+astyle [options] < OriginalSourceFile > BeautifiedSourceFile
+
+
+</formatting>
+
+</texttp>

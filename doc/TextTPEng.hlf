@@ -1,0 +1,9 @@
+.Language=English,English (English)
+.PluginContents=Text Templates
+
+@Contents
+$ #Text Templates#
+    This plugin allows to insert predefined text blocks in the built-in
+    FAR Manager editor.
+
+    Author #Alexander Martinov# (~amart@@mail.ru~@mailto:amart@@mail.ru@)

@@ -1,0 +1,10 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Far\PluginHotkeys\Plugins/Editor/TextTP/TextTP.dll]
+"Hotkey"="t"
+
+[HKEY_CURRENT_USER\Software\Far\PluginHotkeys\Plugins/Editor/TextTP/TextTP.dll%1]
+"Hotkey"="i"
+
+[HKEY_CURRENT_USER\Software\Far\PluginHotkeys\Plugins/Editor/TextTP/TextTP.dll%2]
+"Hotkey"="f"

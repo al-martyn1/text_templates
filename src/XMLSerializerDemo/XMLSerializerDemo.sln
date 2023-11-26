@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XMLSerializerDemo", "XMLSerializerDemo.vcproj", "{875F3406-0E3E-4CB8-B1C2-0160AA0D56F8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{875F3406-0E3E-4CB8-B1C2-0160AA0D56F8}.Debug.ActiveCfg = Debug|Win32
+		{875F3406-0E3E-4CB8-B1C2-0160AA0D56F8}.Debug.Build.0 = Debug|Win32
+		{875F3406-0E3E-4CB8-B1C2-0160AA0D56F8}.Release.ActiveCfg = Release|Win32
+		{875F3406-0E3E-4CB8-B1C2-0160AA0D56F8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

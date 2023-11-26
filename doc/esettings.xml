@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<texttp>
+
+<editor-settings>
+    <settings file-type="makefile" expand-tabs-to-spaces="0" tab-size="4" auto-indent="-1" cursor-beyond-eol="-1"/>
+    <settings file-type="*"        expand-tabs-to-spaces="1" tab-size="4" auto-indent="1"  cursor-beyond-eol="1"/>
+</editor-settings>
+
+</texttp>

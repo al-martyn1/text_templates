@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<texttp>
+
+
+<templates>
+
+<template name="win-include-windows.h">
+<![CDATA[
+#ifndef WIN32_LEAN_AND_MEAN
+    #define WIN32_LEAN_AND_MEAN
+#endif
+
+#ifndef STRICT
+    #define STRICT
+#endif
+
+#if !defined(_WINDOWS_)
+    #include <windows.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-pshpack1.h">
+<![CDATA[
+#include <pshpack1.h>
+]]>
+</template>
+
+<template name="win-include-pshpack2.h">
+<![CDATA[
+#include <pshpack2.h>
+]]>
+</template>
+
+<template name="win-include-pshpack4.h">
+<![CDATA[
+#include <pshpack4.h>
+]]>
+</template>
+
+<template name="win-include-pshpack8.h">
+<![CDATA[
+#include <pshpack8.h>
+]]>
+</template>
+
+<template name="win-include-poppack.h">
+<![CDATA[
+#include <poppack.h>
+]]>
+</template>
+
+
+
+<template name="win-include-windowsx.h">
+<![CDATA[
+#if !defined(_INC_WINDOWSX)
+    #include <windowsx.h>
+#endif
+]]>
+</template>
+
+
+
+<template name="win-include-windef.h">
+<![CDATA[
+#if !defined(_WINDEF_)
+    #include <windef.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-winerror.h">
+<![CDATA[
+#if !defined(_WINERROR_)
+    #include <winerror.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-wingdi.h">
+<![CDATA[
+#if !defined(_WINGDI_)
+    #include <wingdi.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-winsock2.h">
+<![CDATA[
+#if !defined(_WINSOCK2API_)
+    #include <winsock2.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-winbase.h">
+<![CDATA[
+#if !defined(_WINBASE_)
+    #include <winbase.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-wincon.h">
+<![CDATA[
+#if !defined(_WINCON_)
+    #include <wincon.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-wininet.h">
+<![CDATA[
+#if !defined(_WININET_)
+    #include <wininet.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-winnt.h">
+<![CDATA[
+#if !defined(_WINNT_)
+    #include <winnt.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-winreg.h">
+<![CDATA[
+#if !defined(_WINREG_)
+    #include <winreg.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-winsvc.h">
+<![CDATA[
+#if !defined(_WINSVC_)
+    #include <winsvc.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-winver.h">
+<![CDATA[
+#if !defined(VER_H)
+    #include <winver.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-commctrl.h">
+<![CDATA[
+#if !defined(_INC_COMMCTRL)
+    #include <commctrl.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-commdlg.h">
+<![CDATA[
+#if !defined(_INC_COMMDLG)
+    #include <commdlg.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-objbase.h">
+<![CDATA[
+#if !defined(_OBJBASE_H_)
+    #include <objbase.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-shellapi.h">
+<![CDATA[
+#if !defined(_INC_SHELLAPI)
+    #include <shellapi.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-shfolder.h">
+<![CDATA[
+#if !defined(_SHFOLDER_H_)
+    #include <shfolder.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-shlguid.h">
+<![CDATA[
+#if !defined(_SHLGUID_H_)
+    #include <shlguid.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-shlobj.h">
+<![CDATA[
+#if !defined(_SHLOBJ_H_)
+    #include <shlobj.h>
+#endif
+]]>
+</template>
+
+<template name="win-include-shlwapi.h">
+<![CDATA[
+#if !defined(_INC_SHLWAPI)
+    #include <shlwapi.h>
+#endif
+]]>
+</template>
+
+
+<!--template name="win-include-">
+<![CDATA[
+#if !defined()
+    #include <>
+#endif
+]]>
+</template-->
+
+
+</templates>
+
+
+</texttp>

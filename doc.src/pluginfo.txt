@@ -1,0 +1,3 @@
+Path list: D:\usr\src\far\texttp\out\debug
+external-formatter - D:\usr\src\far\texttp\out\debug\ext-fmt.dll
+simple-text-format - D:\usr\src\far\texttp\out\debug\text-fmt.dll

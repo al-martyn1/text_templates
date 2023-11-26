@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<texttp>
+
+<comment-sequences>
+
+    <comment file-type="c-src,cpp-src,csharp-src,java-src,csharp-src,js-src"
+             comment-type="stream"
+             begin-sequence="/*"
+             end-sequence="*/"
+             indent="1"
+             new-line-indent-before="1">
+    </comment>
+
+    <comment file-type="c-src"
+             comment-type="lines"
+             begin-sequence="/*"
+             end-sequence="*/"
+             sequence="*"
+             indent="1"
+             end-at-new-line="true"
+             new-line-indent-before="1">
+    </comment>
+
+    <comment file-type="cpp-src,csharp-src,java-src,csharp-src,js-src"
+             comment-type="lines"
+             sequence="//"
+             indent="1">
+    </comment>
+
+</comment-sequences>
+
+</texttp>

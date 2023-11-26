@@ -1,0 +1,78 @@
+%if defined(TDCK)
+%define GOST
+%endif TDCK
+
+%include <stddef>
+%include <title>
+%include <toc>
+
+@inputenc[cp1251]
+
+
+@begin[article]
+
+
+@newcommand[cellleftalign][@renewcommand[cell_para_style][left]]
+
+
+@newcommand[hotkey][\
+@cellleftalign[]@begin[tbl_cell][28mm]#1@end[tbl_cell]\
+@cellleftalign[]@begin[tbl_cell][56mm]#2@end[tbl_cell]\
+]
+
+
+@begin[tabular][][0][none]
+@begin[tbl_row]@hotkey[Alt+W][Ввод шаблона]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Shift+U][ВСЕ ПРОПИСНЫЕ]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+U][все строчные]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Alt+U][Каждое С Прописной]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+C][Закоментировать]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Shift+C][Раскоментировать]@end[tbl_row]
+@begin[tbl_row]@hotkey[Alt+C][Выделить комент.]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Z][Увеличить отступ]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Shift+Z][Уменьшить отступ]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+X][Увеличить отступ (1 пр)]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Shift+X][Уменьшить отступ (1 пр)]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Alt+D][Выделить строки (вверх)]@end[tbl_row]
+@begin[tbl_row]@hotkey[Alt+D][Выделить строки (вниз)]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+D][Выделить блок кода]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+Shift+D][Выделить код и заголовок]@end[tbl_row]
+% @begin[tbl_row]@hotkey[][]@end[tbl_row]
+@end[tabular]
+
+
+
+@begin[tabular][][0][none]
+@begin[tbl_row]@hotkey[Alt+W][Ввод шаблона]@hotkey[Ctrl+Shift+U][ВСЕ ПРОПИСНЫЕ]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+U][все строчные]@hotkey[Ctrl+Alt+U][Каждое С Прописной]@end[tbl_row]
+@begin[tbl_row]@hotkey[Ctrl+C][Закоментировать]@hotkey[Ctrl+Shift+C][Раскоментировать]@end[tbl_row]
+
+@begin[tbl_row]
+@hotkey[Alt+C][Выделить комент.]
+@hotkey[][]
+@end[tbl_row]
+
+@begin[tbl_row]
+@hotkey[Ctrl+Z][Увеличить отступ]
+@hotkey[Ctrl+X][Увеличить отступ (1 пр)]
+@end[tbl_row]
+
+@begin[tbl_row]
+@hotkey[Ctrl+Shift+Z][Уменьшить отступ]
+@hotkey[Ctrl+Shift+X][Уменьшить отступ (1 пр)]
+@end[tbl_row]
+
+@begin[tbl_row]
+@hotkey[Ctrl+Alt+D][Выделить строки (вверх)]
+@hotkey[Alt+D][Выделить строки (вниз)]
+@end[tbl_row]
+
+@begin[tbl_row]
+@hotkey[Ctrl+D][Выделить блок кода]
+@hotkey[Ctrl+Shift+D][Выделить код и заголовок]
+@end[tbl_row]
+
+% @begin[tbl_row]@hotkey[][]@end[tbl_row]
+@end[tabular]
+
+@end[article]

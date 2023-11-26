@@ -1,0 +1,9 @@
+F:\fromSun\work_last_01\mbs\src\mbs\tools\vatpl\farcfg\c-defines.xml
+F:\tmp\Far\Plugins\Editor\TextTP\c-defines.xml
+F:\workFromFlash\mbs\src\mbs\tools\vatpl\farcfg\c-defines.xml
+
+F:\usr\SRC\Far\texttp\doc\c-defines.xml
+F:\usr\SRC\Far\texttp\out\debug\c-defines.xml
+F:\work\mbs\src\mbs\tools\vatpl\farcfg\c-defines.xml
+
+F:\usr\SRC\Far\texttp

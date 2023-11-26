@@ -1,0 +1,6 @@
+struct $StructName$
+{
+
+
+
+}; // struct $StructName$

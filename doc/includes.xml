@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<texttp>
+
+
+<templates>
+
+<!--template name="cpp-include-">
+<![CDATA[
+#if !defined()
+    #include <>
+#endif
+]]>
+</template-->
+
+
+</templates>
+
+
+</texttp>

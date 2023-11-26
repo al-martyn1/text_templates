@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<texttp>
+
+
+<templates>
+
+<!-- ATL/WTL headers -->
+
+<template name="atl-include-atlbase.h">
+<![CDATA[
+#ifndef __ATLBASE_H__
+    #include <atlbase.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlcom.h">
+<![CDATA[
+#ifndef __ATLCOM_H__
+    #include <atlcom.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlconv.h">
+<![CDATA[
+#ifndef __ATLCONV_H__
+    #include <atlconv.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlcore.h">
+<![CDATA[
+#ifndef __ATLCORE_H__
+    #include <atlcore.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlctl.h">
+<![CDATA[
+#ifndef __ATLCTL_H__
+    #include <atlctl.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlcur.h">
+<![CDATA[
+#ifndef __ATLCUR_H__
+    #include <atlcur.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atldb.h">
+<![CDATA[
+#ifndef __ATLDB_H__
+    #include <atldb.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atldef.h">
+<![CDATA[
+#ifndef __ATLDEF_H__
+    #include <atldef.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlenc.h">
+<![CDATA[
+#ifndef __ATLENC_H__
+    #include <atlenc.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlexcept.h">
+<![CDATA[
+#ifndef __ATLEXCEPT_H__
+    #include <atlexcept.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlfile.h">
+<![CDATA[
+#ifndef __ATLFILE_H__
+    #include <atlfile.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlhost.h">
+<![CDATA[
+#ifndef __ATLHOST_H__
+    #include <atlhost.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlstr.h">
+<![CDATA[
+#ifndef __ATLSTR_H__
+    #include <atlstr.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atltrace.h">
+<![CDATA[
+#ifndef __ATLTRACE_H__
+    #include <atltrace.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atltypes.h">
+<![CDATA[
+#ifndef __ATLTYPES_H__
+    #include <atltypes.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlutil.h">
+<![CDATA[
+#ifndef __ATLUTIL_H__
+    #include <atlutil.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlwin.h">
+<![CDATA[
+#ifndef __ATLWIN_H__
+    #include <atlwin.h>
+#endif
+]]>
+</template>
+
+
+
+
+
+
+<!-- ATL/WTL headers -->
+
+<template name="atl-include-atlapp.h">
+<![CDATA[
+#ifndef __ATLAPP_H__
+    #include <atlapp.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlcrack.h">
+<![CDATA[
+#ifndef __ATLCRACK_H__
+    #include <atlcrack.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlctrls.h">
+<![CDATA[
+#ifndef __ATLCTRLS_H__
+    #include <atlctrls.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlctrlx.h">
+<![CDATA[
+#ifndef __ATLCTRLX_H__
+    #include <atlctrlx.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlctrlw.h">
+<![CDATA[
+#ifndef __ATLCTRLW_H__
+    #include <atlctrlw.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlddx.h">
+<![CDATA[
+#ifndef __ATLDDX_H__
+    #include <atlddx.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atldlgs.h">
+<![CDATA[
+#ifndef __ATLDLGS_H__
+    #include <atldlgs.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlframe.h">
+<![CDATA[
+#ifndef __ATLFRAME_H__
+    #include <atlframe.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlgdi.h">
+<![CDATA[
+#ifndef __ATLGDI_H__
+    #include <atlgdi.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlgdix.h">
+<![CDATA[
+#ifndef __ATLGDIX_H__
+    // this file is not a part of ATL/WTL
+    #include <atlgdix.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlmisc.h">
+<![CDATA[
+#ifndef __ATLMISC_H__
+    #include <atlmisc.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlprint.h">
+<![CDATA[
+#ifndef __ATLPRINT_H__
+    #include <atlprint.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlres.h">
+<![CDATA[
+#ifndef __ATLRES_H__
+    #include <atlres.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlscrl.h">
+<![CDATA[
+#ifndef __ATLSCRL_H__
+    #include <atlscrl.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlsplit.h">
+<![CDATA[
+#ifndef __ATLSPLIT_H__
+    #include <atlsplit.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atltheme.h">
+<![CDATA[
+#ifndef __ATLTHEME_H__
+    #include <atltheme.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atluser.h">
+<![CDATA[
+#ifndef __ATLUSER_H__
+    #include <atluser.h>
+#endif
+]]>
+</template>
+
+<template name="atl-include-atlwinx.h">
+<![CDATA[
+#ifndef __ATLWINX_H__
+    #include <atlwinx.h>
+#endif
+]]>
+</template>
+
+
+<!--template name="atl-include-atl.h">
+<![CDATA[
+#ifndef __ATL_H__
+    #include <atl.h>
+#endif
+]]>
+</template-->
+
+
+</templates>
+
+
+</texttp>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<texttp>
+<shortcuts>
+<shortcut name="//"   file-type="c-src"         template="c-comment"/>
+<shortcut name="//"   file-type="cpp-src"       template="cpp-comment"/>
+<shortcut name="/*"   file-type="c-src,cpp-src" template="c-comment"/>
+<shortcut name="csep" file-type="c-src,cpp-src" template="c-separator-line"/>
+<shortcut name="xsep" file-type="c-src,cpp-src" template="cpp-separator-line"/>
+<shortcut name="sep"  file-type="c-src"         template="c-separator-line"/>
+<shortcut name="sep"  file-type="cpp-src"       template="cpp-separator-line"/>
+</shortcuts>
+</texttp>

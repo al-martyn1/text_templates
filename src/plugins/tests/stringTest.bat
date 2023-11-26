@@ -1,0 +1,3 @@
+rem "C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\bin\cl.exe" /nologo /G7 /GR /GX /EHa /RTCs /Tp stringTest.cpp > stringTest.txt
+rem "C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\bin\cl.exe" "/IC:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include"  /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "WINVER=0x0500" /D "_MBCS" /Gm /EHsc /MLd /W3 /Wp64 /ZI /TP stringTest.cpp > stringTest.txt
+"C:\Program Files\Microsoft Visual Studio\VC98\Bin\cl.exe" -nologo -GX stringTest.cpp > stringTest.txt

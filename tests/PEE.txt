@@ -1,0 +1,4 @@
+EE_READ    Activated 1
+EE_REDRAW  Activated 1 bAgain
+EE_REDRAW  Activated 1 bAgain
+EE_CLOSE   Dectivated 1

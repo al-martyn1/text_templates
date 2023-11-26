@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<texttp>
+
+<templates>
+
+
+
+<template name="nix-include-dirent.h">
+<![CDATA[
+#if !defined(_DIRENT_H) && !defined(_DIRENT_H_)
+    #include <dirent.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-unistd.h">
+<![CDATA[
+#if !defined(_UNISTD_H) && !defined(_UNISTD_H_)
+    #include <unistd.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-sys/stat.h">
+<![CDATA[
+#if !defined(_SYS_STAT_H) && !defined(_SYS_STAT_H_) && !defined(_STAT_H_)
+    #include <sys/stat.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-sys/types.h">
+<![CDATA[
+#if !defined(_SYS_TYPES_H) && !defined(_SYS_TYPES_H_) && !defined(_TYPES_H_)
+    #include <sys/types.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-sys/time.h">
+<![CDATA[
+#if !defined(_SYS_TIME_H) && !defined(_SYS_TIME_H_)
+    #include <sys/time.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-sys/socket.h">
+<![CDATA[
+#if !defined(_SYS_SOCKET_H) && !defined(_SYS_SOCKET_H_) && !defined(_SOCKET_H_)
+    #include <sys/socket.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-sys/select.h">
+<![CDATA[
+#if !defined(_SYS_SELECT_H) && !defined(_SYS_SELECT_H_) && !defined(_SELECT_H_)
+    #include <sys/select.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-sys/poll.h">
+<![CDATA[
+#if !defined(_SYS_POLL_H) && !defined(_SYS_POLL_H_) && !defined(_POLL_H_)
+    #include <sys/poll.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-fcntl.h">
+<![CDATA[
+#if !defined(_FCNTL_H) && !defined(_FCNTL_H_)
+    #include <fcntl.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-netinet/in.h">
+<![CDATA[
+#if !defined(_NETINET_IN_H) && !defined(_NETINET_IN_H_)
+    #include <netinet/in.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-arpa/inet.h">
+<![CDATA[
+#if !defined(_ARPA_INET_H) && !defined(_ARPA_INET_H_)
+    #include <arpa/inet.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-pthread.h">
+<![CDATA[
+#if !defined(_PTHREAD_H) && !defined(_PTHREAD_H_)
+    #include <pthread.h>
+#endif
+]]>
+</template>
+
+<template name="nix-include-semaphore.h">
+<![CDATA[
+#if !defined(_SEMAPHORE_H) && !defined(_SEMAPHORE_H_)
+    #include <semaphore.h>
+#endif
+]]>
+</template>
+
+<!--template name="nix-include-">
+<![CDATA[
+#if !defined() && !defined()
+    #include <>
+#endif
+]]>
+</template-->
+
+
+
+</templates>
+
+
+</texttp>

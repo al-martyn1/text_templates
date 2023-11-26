@@ -1,0 +1,15 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlG]
+"Description"="Format selected text (Default style)"
+"Sequence"="F11 f D"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\AltG]
+"Description"="Calls formatter menu"
+"Sequence"="F11 f"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001

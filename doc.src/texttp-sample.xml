@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<texttp>
+
+<file-types>
+   <file-type type="c-src"   mask="*.c,*.h"/>
+   <file-type type="cpp-src" mask="*.cpp,*.cxx,*.c++,*.hpp"/>
+   <file-type type="xml"     mask="*.xml,*.config,*.xsd,*.xslt"/>
+   <file-type type="html"    mask="*.html,*.htm"/>
+</file-types>
+
+<shortcuts>
+   <!-- Common small macros -->
+   <shortcut name="date"  file-type="*" template="inline:$_LDT_TIME_$"/>
+   <shortcut name="time"  file-type="*" template="inline:$_LDT_DATE_$"/>
+   <shortcut name="mtest" file-type="*" template="file:mtest.txt"/>
+   <shortcut name="comment" file-type="xml"  template="xml-html-comment"/>
+   <shortcut name="tag"     file-type="html"  template="xml-html-tag"/>
+</shortcuts>
+
+<include file="c-shortcuts.xml"/>
+<include file="xmlhtml.xml"/>
+<include file="comments.xml"/>
+<include file="blocksel.xml"/>
+<include file="fmtsty.xml"/>
+
+<templates>
+
+<template name="xml-html-comment"><![CDATA[<!-- @ -->]]></template>
+
+<template name="xml-html-tag">
+<![CDATA[
+<$TagName$>
+
+</$TagName$>
+]]>
+</template>
+
+</templates>
+
+</texttp>

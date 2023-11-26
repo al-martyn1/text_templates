@@ -1,0 +1,75 @@
+$$$$ = $$
+
+File name macrosses
+
+$$_file_$$          = $_file_$
+$$_file_name_$$     = $_file_name_$
+$$_file_ext_$$      = $_file_ext_$
+$$_file_path_$$     = $_file_path_$
+$$_FILE_$$          = $_FILE_$
+$$_FILE_NAME_$$     = $_FILE_NAME_$
+$$_FILE_EXT_$$      = $_FILE_EXT_$
+$$_FILE_PATH_$$     = $_FILE_PATH_$
+
+
+Date & Time macrosses
+
+Local date & time
+
+$$_LDT_a_$$         = $_LDT_a_$      Abbreviated weekday name 
+$$_LDT_A_$$         = $_LDT_A_$      Full weekday name 
+$$_LDT_b_$$         = $_LDT_b_$      Abbreviated month name
+$$_LDT_B_$$         = $_LDT_B_$      Full month name
+$$_LDT_d_$$         = $_LDT_d_$      Day of month as decimal number (1 - 31)
+$$_LDT_dd_$$        = $_LDT_dd_$     Day of month as decimal number (01 - 31)
+$$_LDT_H_$$         = $_LDT_H_$      Hour in 24-hour format (0 - 23)
+$$_LDT_HH_$$        = $_LDT_HH_$     Hour in 24-hour format (00 - 23)
+$$_LDT_h_$$         = $_LDT_h_$      Hour in 12-hour format (1 - 12)
+$$_LDT_hh_$$        = $_LDT_hh_$     Hour in 12-hour format (01 - 12)
+$$_LDT_m_$$         = $_LDT_m_$      Month as decimal number (1 - 12)
+$$_LDT_mm_$$        = $_LDT_mm_$     Month as decimal number (01 - 12)
+$$_LDT_M_$$         = $_LDT_M_$      Minute as decimal number (0 - 59)
+$$_LDT_MM_$$        = $_LDT_MM_$     Minute as decimal number (00 - 59)
+$$_LDT_p_$$         = $_LDT_p_$      AM/PM indicator for 12-hour clock
+$$_LDT_S_$$         = $_LDT_S_$      Second as decimal number (0 - 59)
+$$_LDT_SS_$$        = $_LDT_SS_$     Second as decimal number (00 - 59)
+$$_LDT_w_$$         = $_LDT_w_$      Weekday as decimal number (0 - 6; Sunday is 0) 
+$$_LDT_y_$$         = $_LDT_y_$      Year without century, as decimal number (00 - 99) 
+$$_LDT_Y_$$         = $_LDT_Y_$      Year with century, as decimal number 
+$$_LDT_TIME_$$      = $_LDT_TIME_$   Time, HH:MM:SS
+$$_LDT_DATE_$$      = $_LDT_DATE_$   Numerical date format, DD.MM.Y
+$$_LDT_LDATE_$$     = $_LDT_LDATE_$  Long date format
+$$_LDT_SDATE_$$     = $_LDT_SDATE_$  Short date format
+
+
+GMT date & time - as local, see above
+
+$$_GDT_TIME_$$      = $_GDT_TIME_$
+$$_GDT_DATE_$$      = $_GDT_DATE_$
+
+
+Guid
+
+$$_GUID_REGISTRY_$$ = $_GUID_REGISTRY_$
+$$_GUID_CMACRO_$$   = $_GUID_CMACRO_$
+$$_GUID_DATA1_$$    = $_GUID_DATA1_$
+$$_GUID_DATA2_$$    = $_GUID_DATA2_$
+$$_GUID_DATA3_$$    = $_GUID_DATA3_$
+$$_GUID_DATA40_$$   = $_GUID_DATA40_$
+$$_GUID_DATA41_$$   = $_GUID_DATA41_$
+$$_GUID_DATA42_$$   = $_GUID_DATA42_$
+$$_GUID_DATA43_$$   = $_GUID_DATA43_$
+$$_GUID_DATA44_$$   = $_GUID_DATA44_$
+$$_GUID_DATA45_$$   = $_GUID_DATA45_$
+$$_GUID_DATA46_$$   = $_GUID_DATA46_$
+$$_GUID_DATA47_$$   = $_GUID_DATA47_$
+
+GUID - $_GUID_DATA1_$, $_GUID_DATA2_$, $_GUID_DATA3_$, $_GUID_DATA40_$, $_GUID_DATA41_$, $_GUID_DATA42_$, $_GUID_DATA43_$, $_GUID_DATA44_$, $_GUID_DATA45_$, $_GUID_DATA46_$, $_GUID_DATA47_$
+
+
+
+Clipboard
+
+$$_clipboard_$$     = $_clipboard_$ - content of clipboard in lowercase, spaces replaced with '_'
+$$_CLIPBOARD_$$     = $_CLIPBOARD_$ - content of clipboard in uppercase, spaces replaced with '_'
+

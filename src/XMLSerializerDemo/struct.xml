@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<struct>
+	<x> 5 </x>
+	<y1> 6.2 </y1>
+	<color> 
+		<red>   128 </red>
+		<green> 127 </green>
+		<blue>  1   </blue>
+	</color>
+	<vec>
+		<long> 101 </long>
+		<long> 102 </long>
+		<long> 103 </long>
+		</vec>
+	<colors> 
+		<color> 
+			<red>   1   </red>
+			<green> 127 </green>
+			<blue>  1   </blue>
+		</color>
+		<color> 
+			<red>   2   </red>
+			<green> 127 </green>
+			<blue>  1   </blue>
+		</color>
+	</colors>
+	
+	<Colors2> 
+		<Color> 
+			<Red>   21   </Red>
+			<Green> 127 </Green>
+			<Blue>  1   </Blue>
+		</Color>
+		<Color> 
+			<Red>   22   </Red>
+			<Green> 127 </Green>
+			<Blue>  1   </Blue>
+		</Color>
+	</Colors2>
+
+	<Clrs> 
+		<Clr Red="31" Green="127" Blue="1" />
+		<Clr Red="32" Green="127" Blue="1" /> 
+	</Clrs>
+	<DayOfWeek>Sunday</DayOfWeek>
+</struct>

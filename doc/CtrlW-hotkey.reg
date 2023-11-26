@@ -1,0 +1,16 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlW]
+"Description"="Incremental selection"
+"Sequence"="F11 i N"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\Ctrl÷]
+"Description"="Incremental selection (Russian layout)"
+"Sequence"="F11 i N"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+

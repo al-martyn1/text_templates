@@ -1,0 +1,42 @@
+  Left aligned paragraph (width - 78 symbols). Left aligned paragraph (width -
+78 symbols). Left aligned paragraph (width - 78 symbols). Left aligned
+paragraph (width - 78 symbols). Left aligned paragraph (width - 78 symbols).
+Left aligned paragraph (width - 78 symbols). Left aligned paragraph (width -
+78 symbols).
+
+       Right aligned paragraph. (width - 78 symbols). Right aligned paragraph.
+    (width - 78 symbols). Right aligned paragraph. (width - 78 symbols). Right
+ aligned paragraph. (width - 78 symbols). Right aligned paragraph. (width - 78
+        symbols). Right aligned paragraph. (width - 78 symbols). Right aligned
+         paragraph. (width - 78 symbols). Right aligned paragraph. (width - 78
+                                                                     symbols).
+
+  Center aligned paragraph. (width - 78 symbols). Center aligned paragraph.
+ (width - 78 symbols). Center aligned paragraph. (width - 78 symbols). Center
+aligned paragraph. (width - 78 symbols). Center aligned paragraph. (width - 78
+   symbols). Center aligned paragraph. (width - 78 symbols). Center aligned
+    paragraph. (width - 78 symbols). Center aligned paragraph. (width - 78
+                                  symbols).
+
+  Width  aligned  paragraph.  (width  -  78 symbols). Width aligned paragraph.
+(width  -  78  symbols).  Width aligned paragraph. (width - 78 symbols). Width
+aligned  paragraph. (width - 78 symbols). Width aligned paragraph. (width - 78
+symbols).  Width  aligned  paragraph.  (width  -  78  symbols).  Width aligned
+paragraph.  (width  -  78  symbols).  Width  aligned  paragraph.  (width  - 78
+symbols).
+
+Left aligned paragraph (Enum style). (width - 78 symbols). Left aligned
+   paragraph (Enum style). (width - 78 symbols). Left aligned paragraph (Enum
+   style). (width - 78 symbols). Left aligned paragraph (Enum style). (width -
+   78 symbols). Left aligned paragraph (Enum style). (width - 78 symbols).
+   Left aligned paragraph (Enum style). (width - 78 symbols).
+
+Left aligned para (No indent at para begin). (width - 78 symbols). Left
+aligned para (No indent at para begin). (width - 78 symbols). Left aligned
+para (No indent at para begin). (width - 78 symbols). Left aligned para (No
+indent at para begin). (width - 78 symbols). Left aligned para (No indent at
+para begin). (width - 78 symbols).
+
+
+
+

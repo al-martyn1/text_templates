@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<texttp>
+
+
+<shortcuts>
+    <!--  generic xml file -->
+    <shortcut name="gxml"    file-type="xml"  template="file:xml.xml" keep-indent="true"/>
+    <!--  Windows-1251 encoding xml file -->  
+    <shortcut name="wxml"    file-type="xml"  template="file:1251xml.xml" keep-indent="true"/>
+    <!--  UTF-8 encoding xml file -->         
+    <shortcut name="uxml"    file-type="xml"  template="file:utf8xml.xml" keep-indent="true"/>
+                                              
+    <shortcut name="!-"      file-type="xml,vcproj"  template="xml-html-comment" line-after="true"/>
+    <shortcut name="comment" file-type="xml,vcproj"  template="xml-html-comment" line-after="true"/>
+    <shortcut name="cdata"   file-type="xml,vcproj"  template="file:xml-cdata.txt" keep-indent="true"/>
+    <shortcut name="tag"     file-type="xml,vcproj"  template="xml-html-tag" keep-indent="true"/>
+
+    <!-- Generic html file -->
+    <shortcut name="html"    file-type="html" template="file:html.htm" keep-indent="true"/>
+
+    <shortcut name="!-"      file-type="html" template="xml-html-comment" line-after="true"/>
+    <shortcut name="comment" file-type="html" template="xml-html-comment" line-after="true"/>
+    <shortcut name="tag"     file-type="html"  template="xml-html-tag" keep-indent="true"/>
+
+    <!-- Visual studio solution/project files -->
+    <shortcut name="7sln"      file-type="vcsln"  template="file:vc71.sln"  keep-indent="true"/>
+    <shortcut name="7aconsole" file-type="vcproj" template="file:vc71consoleAnsi.vcproj" keep-indent="true"/>
+    <shortcut name="7adll"     file-type="vcproj" template="file:vc7dllAnsi.vcproj" keep-indent="true"/>
+    <!-- default (no a/w prefix) is ansi verion -->
+    <shortcut name="7console"  file-type="vcproj" template="file:vc71consoleAnsi.vcproj" keep-indent="true"/>
+    <shortcut name="7dll"      file-type="vcproj" template="file:vc7dllAnsi.vcproj" keep-indent="true"/>
+    <!--shortcut name="" file-type="vcproj" template="file:" keep-indent="true"/-->
+
+</shortcuts>
+
+<templates>
+
+<template name="xml-html-comment"><![CDATA[<!-- @ -->]]></template>
+
+<template name="xml-html-tag">
+<![CDATA[
+<$TagName$>
+
+</$TagName$>
+]]>
+</template>
+
+
+
+</templates>
+
+
+</texttp>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<texttp>
+
+<block-selections>
+    <selection file-type="c-src,cpp-src" case-sensitive="true">
+        <block begin="{" end="}"/>
+        <block begin="/*" end="*/"/>
+    </selection>
+
+    <selection file-type="pas-src" case-sensitive="false">
+        <block begin="Begin" end="End">
+            <!-- <block begin="{" end="}">
+              -- <block/>
+              -->
+        </block>
+    </selection>
+
+    <selection file-type="perl-src" 
+               case-sensitive="false">
+        <block begin="{" end="}"/>
+    </selection>
+
+</block-selections>
+</texttp>

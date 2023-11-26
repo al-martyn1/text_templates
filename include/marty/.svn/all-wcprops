@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/common/!svn/ver/195/include/marty
+END
+optimizeSize.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/common/!svn/ver/186/include/marty/optimizeSize.h
+END
+concvt.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/common/!svn/ver/189/include/marty/concvt.h
+END
+utf16.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/common/!svn/ver/102/include/marty/utf16.txt
+END
+srchvec.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/common/!svn/ver/142/include/marty/srchvec.h
+END
+utf.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/common/!svn/ver/187/include/marty/utf.h
+END
+libapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/common/!svn/ver/180/include/marty/libapi.h
+END
+caseconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/common/!svn/ver/195/include/marty/caseconv.h
+END
+helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/common/!svn/ver/142/include/marty/helpers.h
+END
+tmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/common/!svn/ver/142/include/marty/tmain.cpp
+END
+mhdldef.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/common/!svn/ver/142/include/marty/mhdldef.h
+END
+utf16be.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/common/!svn/ver/102/include/marty/utf16be.txt
+END
+optimizeRestore.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/common/!svn/ver/186/include/marty/optimizeRestore.h
+END
+readersWriters.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/common/!svn/ver/161/include/marty/readersWriters.h
+END
+basictchardefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/common/!svn/ver/142/include/marty/basictchardefs.h
+END
+confUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/common/!svn/ver/142/include/marty/confUtils.h
+END
+tmain.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/common/!svn/ver/142/include/marty/tmain.h
+END
+filesys.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/common/!svn/ver/142/include/marty/filesys.cpp
+END
+macroses.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/common/!svn/ver/142/include/marty/macroses.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/common/!svn/ver/155/include/marty/util.h
+END
+filesys.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/common/!svn/ver/190/include/marty/filesys.h
+END
+utf16le.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/common/!svn/ver/102/include/marty/utf16le.txt
+END
+utf8.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/common/!svn/ver/102/include/marty/utf8.txt
+END
+filename.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/common/!svn/ver/195/include/marty/filename.h
+END
+mbs.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/common/!svn/ver/143/include/marty/mbs.h
+END
+optimizeSpeed.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/common/!svn/ver/186/include/marty/optimizeSpeed.h
+END
+umlclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/common/!svn/ver/142/include/marty/umlclass.h
+END
+cpphlp.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/common/!svn/ver/194/include/marty/cpphlp.h
+END
+winapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/common/!svn/ver/185/include/marty/winapi.h
+END
+env.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/common/!svn/ver/142/include/marty/env.h
+END

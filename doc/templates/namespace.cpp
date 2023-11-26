@@ -1,0 +1,11 @@
+namespace $NamespaceName$
+{
+
+
+
+
+
+
+
+
+}; // namespace $NamespaceName$

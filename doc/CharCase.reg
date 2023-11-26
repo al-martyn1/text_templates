@@ -1,0 +1,24 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlShiftU]
+"Description"="Make uppercase"
+"Sequence"="F11 c Down Down Enter"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlU]
+"Description"="Make lowercase"
+"Sequence"="F11 c Enter"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Far\KeyMacros\Editor\CtrlAltU]
+"Description"="Make lowercase With Uppercase First Chars"
+"Sequence"="F11 c Down Enter"
+"DisableOutput"=dword:00000001
+"NoPluginPanels"=dword:00000001
+"NoFolders"=dword:00000001
+
+

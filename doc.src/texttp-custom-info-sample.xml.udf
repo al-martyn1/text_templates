@@ -1,0 +1,5 @@
+@xml_text[@xml_char[@lt[]?xml] @xml_attrname[version]@xml_char[=]@xml_char["]@xml_attrval[1.0]@xml_char["]@xml_char[?@gt[]]@lbr[]
+@xml_char[@lt[]]@xml_tagname[texttp-custom-info]@xml_char[@gt[]]@lbr[]
+    @xml_char[@lt[]]@xml_tagname[config-file]@xml_char[@gt[]]c:/SRC/Far/texttp/ttp/ttp-project-templates.xml@xml_char[@lt[]/]@xml_tagname[config-file]@xml_char[@gt[]]@lbr[]
+    @xml_char[@lt[]]@xml_tagname[template-dir]@xml_char[@gt[]]c:/SRC/Far/texttp/ttp/templates@xml_char[@lt[]/]@xml_tagname[template-dir]@xml_char[@gt[]]@lbr[]
+@xml_char[@lt[]/]@xml_tagname[texttp-custom-info]@xml_char[@gt[]]]
